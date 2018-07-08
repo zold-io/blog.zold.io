@@ -1,12 +1,8 @@
 ---
 ---
 @charset 'utf-8';
-/*@import 'https://fonts.googleapis.com/css?family=Ovo|IM+Fell+English+SC|IM+Fell+English';*/
 @import 'https://fonts.googleapis.com/css?family=Lora|Podkova';
 
-/*$caption: 'IM Fell English SC';
-$serif: 'IM Fell English';
-*/
 $caption: 'Podkova';
 $serif: 'Lora';
 
@@ -143,7 +139,7 @@ article {
   }
 
   h1 {
-    color: $mandarin;
+    color: $blue;
     font-size: 2.8em;
     font-weight: bold;
     font-family: $caption;
