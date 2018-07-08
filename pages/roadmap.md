@@ -78,4 +78,5 @@ Dec:
 
   * Grow Zerocracy up to 1,000 active developers
   * Close 4,000 Zerocracy jobs per day
-  * Sell 16M ZLD sold
+  * Sell/distribute 30M ZLD sold
+  * Pay programmers only in ZLD
