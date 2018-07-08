@@ -1,0 +1,50 @@
+---
+layout: default
+---
+
+<article itemscope="" itemtype="http://schema.org/BlogPosting">
+  <h1>
+    <span>{{ page.title }}</span>
+  </h1>
+  <ul class="subline">
+    <li>
+      <i class="icon icon-twitter notranslate" aria-hidden="true"></i>
+      <a href="https://twitter.com/intent/follow?screen_name={{ page.author }}">@{{ page.author }}</a>
+    </li>
+    <li>
+      <time itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}">
+        {{ page.date | date: "%-d %B %Y" }}
+      </time>
+    </li>
+    <!--
+    <li>
+      <a href="{{ site.url }}{{ page.url }}#disqus_thread" itemprop="discussionUrl">comments</a>
+    </li>
+    -->
+  </ul>
+  <div>{{ content }}</div>
+</article>
+
+<div class="disqus" role="complementary">
+  <div id="disqus_thread" class="disqus-thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = document.location.href.split('?')[0].split('#')[0];
+      this.page.identifier = this.page.url;
+    };
+    (function() {
+      var d = document, s = d.createElement('script');
+      s.src = '//blog-zold-io.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>
+    <div>
+      <p class="red">
+        JavaScript is turned off, that's why you don't see the comments
+        for this blog post.
+      </p>
+    </div>
+  </noscript>
+</div>

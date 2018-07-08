@@ -1,0 +1,63 @@
+---
+layout: default
+title: Blog@Zold
+description: |
+  Blog about Zold and other cryptocurrencies.
+---
+
+<div itemscope="" itemtype="http://schema.org/Blog">
+{% for post in paginator.posts %}
+  <div class="container">
+    <article itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting">
+      <h1>
+        <a href="{{ post.url }}">
+          <span itemprop="name headline mainEntityOfPage">{{ post.title }}</span>
+        </a>
+      </h1>
+      <ul class="subline">
+        <li>
+          <i class="icon icon-twitter notranslate" aria-hidden="true"></i>
+          <a href="https://twitter.com/intent/follow?screen_name={{ post.author }}">@{{ post.author }}</a>
+        </li>
+        <li>
+          <time itemprop="datePublished dateModified" datetime="{{ post.date | date_to_xmlschema }}">
+            {{ post.date | date: "%-d %B %Y" }}
+          </time>
+        </li>
+        <!--
+        <li>
+          <i class="icon icon-comments"></i>
+          <a href="{{ site.url }}{{ post.url }}#disqus_thread" itemprop="discussionUrl">comments</a>
+        </li>
+        -->
+      </ul>
+      <div class="main" itemprop="description">
+        {{ post.excerpt }}
+      </div>
+      <p>
+        <a href="{{ post.url }}" itemprop="url">
+          Continue...
+        </a>
+      </p>
+    </article>
+  </div>
+{% endfor %}
+<div>
+
+{% if paginator.total_pages > 1 %}
+  <div class="container">
+    <div class="pagination">
+      {% if paginator.previous_page %}
+        {% if paginator.previous_page == 1 %}
+          <a href="/">Back</a>
+        {% else %}
+          <a href="/p/{{ paginator.previous_page }}">Back</a>
+        {% endif %}
+      {% endif %}
+      {{ paginator.page }}/{{ paginator.total_pages }}
+      {% if paginator.next_page %}
+        <a href="/p/{{ paginator.next_page }}">Next</a>
+      {% endif %}
+    </div>
+  </div>
+{% endif %}

@@ -1,0 +1,192 @@
+---
+---
+@charset 'utf-8';
+/*@import 'https://fonts.googleapis.com/css?family=Ovo|IM+Fell+English+SC|IM+Fell+English';*/
+@import 'https://fonts.googleapis.com/css?family=Lora|Podkova';
+
+/*$caption: 'IM Fell English SC';
+$serif: 'IM Fell English';
+*/
+$caption: 'Podkova';
+$serif: 'Lora';
+
+$black: #000;
+$dark: #373937;
+$white: #fff;
+$red: #FB3640;
+$blue: #1F487E;
+$lightblue: #247BA0;
+$mandarin: #ED7D3A;
+
+$em: 20px;
+$width: 30 * $em;
+
+%gray {
+  color: gray;
+}
+
+%small {
+  font-size: 0.8em;
+  line-height: 1.4em;
+}
+
+%desktop {
+  @media (max-width: $width) {
+    display: none;
+  }
+}
+
+* {
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+html,
+body,
+.container,
+section {
+  min-height: 100%;
+}
+
+body {
+  font-family: $serif;
+  font-size: $em;
+  line-height: 1.4em;
+  background-color: $white;
+}
+
+section {
+  width: 100%;
+  padding-left: 1em;
+  padding-right: 1em;
+
+  @media (max-width: $width) {
+    padding-left: .5em;
+    padding-right: .5em;
+  }
+}
+
+header,
+footer,
+article,
+.disqus {
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+
+header,
+footer {
+  @extend %desktop;
+  text-align: center;
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+header {
+  .logo {
+    height: 92px;
+    width: 92px;
+  }
+
+  nav {
+    margin: .4em 0;
+    ul li {
+      display: inline;
+      margin-right: .4em;
+
+      a {
+        color: inherit;
+
+        &:hover {
+          color: $mandarin;
+        }
+      }
+    }
+  }
+}
+
+footer {
+  @extend %gray;
+  @extend %small;
+}
+
+article {
+  margin-left: auto;
+  margin-right: auto;
+  width: $width;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+    background: linear-gradient($mandarin, $mandarin);
+    background-position: 0 1.1em;
+    background-repeat: repeat-x;
+    background-size: 1px 4px;
+  }
+
+  .subline {
+    list-style: none;
+    margin-left: 0;
+    font-size: .8em;
+    margin-bottom: 1em;
+
+    li {
+      display: inline;
+      margin-right: .8em;
+    }
+  }
+
+  h1 {
+    color: $mandarin;
+    font-size: 2.8em;
+    font-weight: bold;
+    font-family: $caption;
+    line-height: 1em;
+
+    a {
+      text-decoration: none;
+      background: none;
+      color: $dark;
+    }
+  }
+
+  h2 {
+    font-size: 1.4em;
+    font-weight: bold;
+  }
+
+  p,
+  h1,
+  h2,
+  h3,
+  ul,
+  ol {
+    margin-bottom: .8em;
+    margin-top: .8em;
+  }
+
+  ul,
+  ol {
+    margin-left: 3em;
+  }
+}
+
+.disqus {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+
+  @media (max-width: $width) {
+    width: 100%;
+  }
+}
+
+.pagination {
+  margin: 2em auto;
+}

@@ -1,0 +1,1 @@
+sitemap: http://blog.zold.io/sitemap.xml

@@ -1,0 +1,37 @@
+title: Blog@Zold
+email: blog@zold.io
+description: >
+  Blog about Zold and other cryptocurrencies
+baseurl: ""
+url: "http://blog.zold.io"
+twitter_username: 0crat
+markdown: kramdown
+author:
+  name: "Yegor Bugayenko"
+  email: yegor256@gmail.com
+encoding: utf-8
+timezone: Europe/Moscow
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+gems:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+
+permalink: :year/:month/:day/:title.html
+paginate: 20
+paginate_path: "p/:num"
+excerpt_separator: <!--more-->
+
+feed:
+  title: Blog@Zold
+  subtitle: Blog about Zold and other cryptocurrencies
+  path: rss.xml
+
+sass:
+  style: compressed
+  deploy_style: compressed
+  compile_in_place: false
