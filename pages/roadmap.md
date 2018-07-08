@@ -19,7 +19,7 @@ It has a very ambitious roadmap.
 
 ## 2018
 
-29 January<br/>
+29 Jan<br/>
 The idea was born.
 It became obvious that having our own cryptocurrency would be benefitial for [Zerocracy](https://www.zerocracy.com).
 
@@ -33,11 +33,11 @@ The first version of the [White Paper](https://papers.zold.io/wp.pdf) has been p
 28 May<br/>
 The first transaction has been sent.
 
-16 June<br/>
+16 Jun<br/>
 We started to recruit Ruby developers on [StackOverflow](https://stackoverflow.com/jobs/194602/brave-ruby-developer-for-a-new-cryptocurrency-zerocracy),
 to build a team.
 
-8 July<br/>
+8 Jul<br/>
 This blog has been started and the first article has been published.
 
 <br/>
