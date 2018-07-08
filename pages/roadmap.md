@@ -44,14 +44,14 @@ This blog has been started and the first article has been published.
 
 And now, the forecast:
 
-July:
+Jul:
 
   * Make sure both PUSH and PULL are fast enough
   * Fix MERGE to avoid loosing transactions
   * Get a stable team of 5 Ruby devs
   * Launch Telegram bot
 
-August:
+Aug:
 
   * Migrate "scoring farm" from Ruby to C/C++
   * Make sure our network contains 200+ nodes
@@ -60,7 +60,7 @@ August:
   * Get ZLD listed at 1-2 crypto exchanges
   * Release Java client API
 
-September:
+Sep:
 
   * Make node software fully multi-threaded
   * Grow the network to 500+ nodes
@@ -68,15 +68,13 @@ September:
   * Announce it at bitcointalk.org
   * Start active marketing campaign and sell 200K ZLD
 
-Till the end of 2018:
+Dec:
 
   * Grow the team up to 25 devs
   * Grow the network up to 1000+ nodes
   * Sell 1M ZLD
 
 ## 2019
-
-Till the end of the year:
 
   * Grow Zerocracy up to 1,000 active developers
   * Close 4,000 Zerocracy jobs per day
