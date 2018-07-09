@@ -75,7 +75,7 @@ Dec:
 
   * Grow the team up to 25 devs
   * Grow the network up to 1000+ nodes
-  * Sell 1M ZLD
+  * Sell/distribute 1M ZLD
 
 ## 2019
 
