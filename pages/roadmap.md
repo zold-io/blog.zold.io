@@ -70,6 +70,7 @@ Sep:
   * Incorporate a foundation in a crypto-friendly territory
   * Announce it at bitcointalk.org
   * Start active marketing campaign and sell 200K ZLD
+  * Speak at 1-2 conferences, present Zold
 
 Dec:
 
@@ -79,6 +80,7 @@ Dec:
 
 ## 2019
 
+  * Actively present Zold at software and crypto conferences
   * Grow Zerocracy up to 1,000 active developers
   * Close 4,000 Zerocracy jobs per day
   * Sell/distribute 30M ZLD
