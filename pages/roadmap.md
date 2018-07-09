@@ -37,6 +37,9 @@ The first transaction has been sent.
 We started to recruit Ruby developers on [StackOverflow](https://stackoverflow.com/jobs/194602/brave-ruby-developer-for-a-new-cryptocurrency-zerocracy),
 to build a team.
 
+2 Jul<br/>
+The first version of the [Green Paper](https://papers.zold.io/green-paper.pdf) has been published.
+
 8 Jul<br/>
 This blog has been started and the first article has been published.
 
