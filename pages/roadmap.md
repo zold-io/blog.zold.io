@@ -45,14 +45,13 @@ This blog has been started and the first article has been published.
 
 <br/>
 
-And now, the forecast:
-
 Jul:
 
   * Make sure both PUSH and PULL are fast enough
   * Fix MERGE to avoid loosing transactions
   * Get a stable team of 5 Ruby devs
   * Launch Telegram bot
+  * Stabilize hosting bonuses
 
 Aug:
 
@@ -62,6 +61,7 @@ Aug:
   * Build a team of JavaScript devs, close JS tickets
   * Get ZLD listed at 1-2 crypto exchanges
   * Release Java client API
+  * PUSH, FETCH, and UPDATE in multi threaded mode
 
 Sep:
 
