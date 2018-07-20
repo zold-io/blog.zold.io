@@ -43,6 +43,9 @@ The first version of the [Green Paper](https://papers.zold.io/green-paper.pdf) h
 8 Jul<br/>
 This blog has been started and the first article has been published.
 
+14 Jul<br/>
+Critical bugs with nodes connectivity were fixed, the network is stable (over 70 nodes).
+
 <br/>
 
 Jul:
