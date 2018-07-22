@@ -78,6 +78,9 @@ The future (the order is not exact):
   * [#140](https://github.com/zold-io/zold/issues/140): HTTPS for the entire RESTful API
   * [#280](https://github.com/zold-io/zold/issues/280): Pro-active pulling of wallets
   * Release [Java client API](https://github.com/zold-io/java-api)
+  * [#96](https://github.com/zold-io/zold/issues/96): NScore for PULL
+  * [#74](https://github.com/zold-io/zold/issues/74): Make local changes visible before PUSH
+  * [#43](https://github.com/zold-io/zold/issues/43): Score graph
   * MongoDB backend
   * AWS DynamoDB backend
   * AWS S3 backend
