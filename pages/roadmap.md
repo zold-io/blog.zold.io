@@ -21,7 +21,8 @@ It has a very ambitious technical roadmap.
 
 29 Jan<br/>
 The idea was born.
-It became obvious that having our own cryptocurrency would be benefitial for [Zerocracy](https://www.zerocracy.com).
+It became obvious that having our own cryptocurrency would be
+benefitial for [Zerocracy](https://www.zerocracy.com).
 
 12 May<br/>
 Version [0.1](https://github.com/zold-io/zold/tree/0.1) has been
@@ -60,9 +61,27 @@ them much faster than before.
 
 The future (the order is not exact):
 
-  * Make sure both PUSH and PULL are fast enough (less than 4s)
+  * [#412](https://github.com/zold-io/zold/issues/412): Make sure both PUSH and PULL are fast enough (less than 4s)
   * Launch Telegram bot
-  * Stabilize hosting bonuses distribution (they fail often)
+  * Design automated stress tests and analyze their results
+  * Stabilize hosting bonuses distribution and tax payments (they fail often)
+  * [#315](https://github.com/zold-io/zold/issues/315): Make it easier to update remotes, based on `mtime()`
   * Migrate "scoring farm" from Ruby to C/C++
+  * [#279](https://github.com/zold-io/zold/issues/279): Wallet aliases
+  * [#235](https://github.com/zold-io/zold/issues/235): More effective wallet spreading mechanism
+  * [#403](https://github.com/zold-io/zold/issues/403): Make node errors visible via HTTP
+  * [#249](https://github.com/zold-io/zold/issues/249): Node aliases for better visibility
+  * [#230](https://github.com/zold-io/zold/issues/230): `--trust` for PUSH and PULL
+  * [#211](https://github.com/zold-io/zold/issues/211): Help nodes stay visible for longer, if they are reliable
+  * [#176](https://github.com/zold-io/zold/issues/176): Reactive HTTP requests
+  * [#181](https://github.com/zold-io/zold/issues/181): Reboot on new RubyGems release
+  * [#140](https://github.com/zold-io/zold/issues/140): HTTPS for the entire RESTful API
+  * [#280](https://github.com/zold-io/zold/issues/280): Pro-active pulling of wallets
   * Release [Java client API](https://github.com/zold-io/java-api)
+  * MongoDB backend
+  * AWS DynamoDB backend
+  * AWS S3 backend
+  * Incremental HTTP protocol, to avoid traffic duplication
+  * Mobile wallet (iOS and Android)
+  * Mobile node
   * Make node software fully multi-threaded
