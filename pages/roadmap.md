@@ -45,7 +45,6 @@ This is our current technical focus (most urgent are at the top):
   * Incremental HTTP protocol, to avoid traffic duplication
   * Mobile wallet (iOS and Android)
   * Mobile node
-  * Make node software fully multi-threaded
 
 ## 2018
 
