@@ -4,7 +4,9 @@ title: How Trustable Is Blockchain?
 date: 2018-07-25
 author: yegor256
 description: |
-  ...
+  Blockchain is one of the solutions for a decentralized
+  digital payment problem; how trustable it is and what
+  are the important components of trust?
 tags: blockchain
 ---
 
