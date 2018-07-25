@@ -48,7 +48,7 @@ you and them.
 How can we trust such a group of servers,
 if we don't trust any of them individually?
 
-This is the problem Bitcoin and other cryptocurrencies, like Zold, solve.
+This is the problem Bitcoin and other cryptocurrencies, like [Zold](http://www.zold.io), solve.
 
 They all invent a protocol, which every single server is supposed to use and follow.
 They use the protocol to constantly exchange the information about
