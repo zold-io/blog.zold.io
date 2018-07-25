@@ -20,22 +20,24 @@ If you are interested in volunteering, please text us in our
 
 There is no particular order.
 
-How fast Zold is comparing to other cryptocurrencies?
+* How fast Zold is comparing to other cryptocurrencies?
 
-What are the pros and cons of our key competitors, like Bitcoin, Ethereum, Nano, IOTA, etc.?
+* What are the pros and cons of our key competitors, like Bitcoin, Ethereum, Nano, IOTA, etc.?
 
-Who makes the decision of updating Bitcoin software?
-Is it really a democratic process or just a small group of people decide?
+* Who makes the decision of updating Bitcoin software?
+  Is it really a democratic process or just a small group of people decide?
 
-How [expensive](https://www.coindesk.com/400-million-year-researcher-argues-bitcoin-mining-worth-cost/)
-cryptocurrencies are and is it how they should be?
+* How [expensive](https://www.coindesk.com/400-million-year-researcher-argues-bitcoin-mining-worth-cost/)
+  cryptocurrencies are and is it how they should be?
 
-How many currencies the world needs and why?
+* How many currencies the world needs and why?
 
-Is it possible to have a no-fee cryptocurrency, where all payments are free?
+  Is it possible to have a no-fee cryptocurrency, where all payments are free?
 
-Bitcoin has a technically limited total supply of 21m BTC, while Ethereum has no limit---which approach is better?
+* Bitcoin has a technically limited total supply of 21m BTC, while Ethereum has no limit---which approach is better?
 
-What are the top ten industries where crypto currencies will be used first of all and why?
+* What are the top ten industries where crypto currencies will be used first of all and why?
 
-Will it be possible to reduce market volatility of cryptocurrencies and stabilize them?
+* Will it be possible to reduce market volatility of cryptocurrencies and stabilize them?
+
+Don't be shy, write an article, we will review it, improve, and publish.
