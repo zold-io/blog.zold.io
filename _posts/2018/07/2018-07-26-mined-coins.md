@@ -16,6 +16,7 @@ there are only 25 mineable coins in the Top 100 coins based on
 the market capitalization. The rest 75 in Top 100 are
 pre-mined. Only 25% at the top of the list. Down the list the
 picture is even more dominated by the pre-mined coins.
+
 One can ask: what’s wrong with the pre-mined coins? Nothing in particular.
 The only issue is that the action of pre-mining entirely contradicts the very
 essence of the consensus money system. Any monetary system is not only about the
