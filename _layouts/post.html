@@ -8,8 +8,14 @@ layout: default
   </h1>
   <ul class="subline">
     <li>
-      <i class="icon icon-twitter notranslate" aria-hidden="true"></i>
-      <a href="https://twitter.com/intent/follow?screen_name={{ page.author }}">@{{ page.author }}</a>
+      {% if page.author.twitter %}
+        <i class="icon icon-twitter notranslate" aria-hidden="true"></i>
+        <a href="https://twitter.com/intent/follow?screen_name={{ page.author.twitter }}">{{ page.author.name }}</a>
+      {% endif %}
+      {% if page.author.linkedin %}
+        <i class="icon icon-linkedin notranslate" aria-hidden="true"></i>
+        <a href="https://linkedin.com/in/{{ page.author.linkedin }}">{{ page.author.name }}</a>
+      {% endif %}
     </li>
     <li>
       <time itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}">

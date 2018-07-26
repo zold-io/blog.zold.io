@@ -2,7 +2,9 @@
 layout: post
 title: Why We Were Losing Transactions?
 date: 2018-07-17
-author: yegor256
+author:
+  name: Yegor Bugayenko
+  twitter: yegor256
 description: |
   Some wallets were losing transactions for a few recent
   weeks; here is a more or less detailed explanation

@@ -6,36 +6,42 @@ description: |
 ---
 
 <div itemscope="" itemtype="http://schema.org/Blog">
-{% for post in paginator.posts %}
+{% for page in paginator.posts %}
   <div class="container">
     <article itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting">
       <h1>
-        <a href="{{ post.url }}">
-          <span itemprop="name headline mainEntityOfPage">{{ post.title }}</span>
+        <a href="{{ page.url }}">
+          <span itemprop="name headline mainEntityOfPage">{{ page.title }}</span>
         </a>
       </h1>
       <ul class="subline">
         <li>
-          <i class="icon icon-twitter notranslate" aria-hidden="true"></i>
-          <a href="https://twitter.com/intent/follow?screen_name={{ post.author }}">@{{ post.author }}</a>
+          {% if page.author.twitter %}
+            <i class="icon icon-twitter notranslate" aria-hidden="true"></i>
+            <a href="https://twitter.com/intent/follow?screen_name={{ page.author.twitter }}">{{ page.author.name }}</a>
+          {% endif %}
+          {% if page.author.linkedin %}
+            <i class="icon icon-linkedin notranslate" aria-hidden="true"></i>
+            <a href="https://linkedin.com/in/{{ page.author.linkedin }}">{{ page.author.name }}</a>
+          {% endif %}
         </li>
         <li>
-          <time itemprop="datePublished dateModified" datetime="{{ post.date | date_to_xmlschema }}">
-            {{ post.date | date: "%-d %B %Y" }}
+          <time itemprop="datePublished dateModified" datetime="{{ page.date | date_to_xmlschema }}">
+            {{ page.date | date: "%-d %B %Y" }}
           </time>
         </li>
         <!--
         <li>
           <i class="icon icon-comments"></i>
-          <a href="{{ site.url }}{{ post.url }}#disqus_thread" itemprop="discussionUrl">comments</a>
+          <a href="{{ site.url }}{{ page.url }}#disqus_thread" itemprop="discussionUrl">comments</a>
         </li>
         -->
       </ul>
       <div class="main" itemprop="description">
-        {{ post.excerpt }}
+        {{ page.excerpt }}
       </div>
       <p>
-        <a href="{{ post.url }}" itemprop="url">
+        <a href="{{ page.url }}" itemprop="url">
           Continue...
         </a>
       </p>
