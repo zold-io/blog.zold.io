@@ -12,7 +12,7 @@ description: |
 tags: speed
 ---
 
-Zold is a non-blockchain cryptocurrency without a central ledger.
+[Zold](https://www.zold.io) is a non-blockchain cryptocurrency without a central ledger.
 Each Zold wallet has its own list of transactions, both positive (coming in)
 and negative (coming out). Two wallets take participation in each payment.
 The first wallet gets a money spending transaction and the second one
@@ -129,7 +129,8 @@ owners, the dependency is not linear. The confirmation time does grow, but
 even with a million nodes in the network and a thousand transactions per second
 its value jumps from 20 to 200 seconds. With a million transactions
 per second and a million nodes in the network the estimated confirmation time
-will be equal to an hour.
+will be equal to an hour. VISA's peak volume was
+[47,000 tps](https://www.visa.com/blogarchives/us/2013/10/10/stress-test-prepares-visanet-for-the-most-wonderful-time-of-the-year/index.html) in 2013.
 
 _We are developing a set of stress tests at the moment, in order
 to confirm the numbers and formulas presented above._
