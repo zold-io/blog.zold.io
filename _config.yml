@@ -3,7 +3,7 @@ email: blog@zold.io
 description: >
   Blog about Zold and other cryptocurrencies
 baseurl: ""
-url: "http://blog.zold.io"
+url: "https://blog.zold.io"
 twitter_username: 0crat
 markdown: kramdown
 author:
