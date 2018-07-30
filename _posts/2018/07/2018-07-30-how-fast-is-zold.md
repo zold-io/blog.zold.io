@@ -133,7 +133,7 @@ will be equal to an hour.
 
 To compare, VISA's peak volume was
 [47,000 tps](https://www.visa.com/blogarchives/us/2013/10/10/stress-test-prepares-visanet-for-the-most-wonderful-time-of-the-year/index.html)
-in 2013, while it's [regular volume](https://usa.visa.com/run-your-business/small-business-tools/retail.html)
+in 2013, while its [regular volume](https://usa.visa.com/run-your-business/small-business-tools/retail.html)
 is 1,700 tps.
 This [analysis](https://www.abitgreedy.com/transaction-speed/)
 demonstrates how fast are some other cryptocurrencies.
