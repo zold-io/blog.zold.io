@@ -136,7 +136,7 @@ To compare, VISA's peak volume was
 in 2013, while its [regular volume](https://usa.visa.com/run-your-business/small-business-tools/retail.html)
 is 1,700 tps.
 This [analysis](https://www.abitgreedy.com/transaction-speed/)
-demonstrates how fast are some other cryptocurrencies.
+demonstrates how fast some other cryptocurrencies are.
 
 _We are developing a set of stress tests at the moment, in order
 to confirm the numbers and formulas presented above._
