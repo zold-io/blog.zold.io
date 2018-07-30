@@ -19,10 +19,9 @@ It has a very ambitious technical roadmap.
 
 This is our current technical focus (most urgent are at the top):
 
-  * [#412](https://github.com/zold-io/zold/issues/412): Make PUSH/PULL fast enough (less than 4s)
   * Launch Telegram bot
   * Design automated stress tests and analyze their results
-  * Stabilize hosting bonuses distribution
+  * Packaged PUSH and FETCH
   * [#315](https://github.com/zold-io/zold/issues/315): Make UPDATE more efficient, via `mtime()`
   * Migrate "scoring farm" from Ruby to C/C++
   * [#279](https://github.com/zold-io/zold/issues/279): Wallet aliases
@@ -47,6 +46,11 @@ This is our current technical focus (most urgent are at the top):
   * Mobile node
 
 ## 2018
+
+30 Jul<br/>
+[#412](https://github.com/zold-io/zold/issues/412):
+Scores are being calculated in a separate process, which
+makes HTTP front-end a few times faster (but still pretty slow).
 
 22 Jul<br/>
 [#399](https://github.com/zold-io/zold/issues/399):
