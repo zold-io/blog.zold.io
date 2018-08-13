@@ -171,6 +171,13 @@ article {
     margin-left: 3em;
   }
 
+  hr {
+    margin: 2em auto;
+    width: 50%;
+    height: 1px;
+    background-color: $blue;
+  }
+
   .equation {
     height: 150%;
   }
