@@ -32,6 +32,9 @@ uses as many as it can find.
 If it doesn't pay, feel free to [submit an issue](https://github.com/zold-io/wts.zold.io/issues)
 to GitHub.
 
+All payments are sent from the wallet [17737fee5b825835](http://b1.zold.io/wallet/17737fee5b825835.txt)
+(click the link to see the most recent payments sent).
+
 <hr/>
 
 We will update this article, if something changes.
