@@ -21,8 +21,6 @@ If you are interested in volunteering, please text us in our
 There is no particular order.
 You will get **256 ZLD** for each published article.
 
-* How fast Zold is comparing to other cryptocurrencies?
-
 * What are the pros and cons of our key competitors, like Bitcoin, Ethereum, Nano, IOTA, etc.?
 
 * Who makes the decision of updating Bitcoin software?
@@ -33,12 +31,14 @@ You will get **256 ZLD** for each published article.
 
 * How many currencies the world needs and why?
 
-  Is it possible to have a no-fee cryptocurrency, where all payments are free?
+* Is it possible to have a no-fee cryptocurrency, where all payments are free?
 
 * Bitcoin has a technically limited total supply of 21m BTC, while Ethereum has no limit---which approach is better?
 
 * What are the top ten industries where crypto currencies will be used first of all and why?
 
 * Will it be possible to reduce market volatility of cryptocurrencies and stabilize them?
+
+* Who really owns mineable cryptos?
 
 Don't be shy, write an article, we will review it, improve, and publish.
