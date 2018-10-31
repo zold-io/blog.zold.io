@@ -47,7 +47,7 @@ Now we have to find out how fast each node will be able to do those pull,
 merge, and push operations for each wallet. It seems logical to assume that
 the speed of the entire update will depend on two factors:
 how fast a neighbour node responds and how many of them are there. With the
-current [Ruby]({% post_url 2018-07-20-why-ruby %}) software,
+current [Ruby]({% post_url 2018/07/2018-07-20-why-ruby %}) software,
 utilizing 4 parallel threads, an average response
 time _P_ is 400ms (which is pretty high and has to be decreased
 down to 50ms in future versions). With this response time and the current

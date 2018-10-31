@@ -24,7 +24,7 @@ As you probably know from our [White Paper](https://papers.zold.io/wp.pdf),
 there are three basic operations in Zold: fetch, push, and merge. The first
 two (fetch and push) interact with the network of distributed nodes, the last one
 (merge) works locally, putting wallet files together and
-[deciding]({% post_url 2018-08-03-consensus %}) which
+[deciding]({% post_url 2018/08/2018-08-03-consensus %}) which
 set of copies is the most trustable.
 
 Zold network is decentralized and this means, first of all, that it
@@ -44,7 +44,8 @@ to isolate good nodes from bad ones and ensure that the speed of the entire
 operation is high enough.
 
 If just a few nodes are slow, while the rest are fast, it's not a big deal. We
-still get the data we need [fast enough]({% post_url 2018-07-30-how-fast-is-zold %}) and we still can use them for the
+still get the data we need
+[fast enough]({% post_url 2018/07/2018-07-30-how-fast-is-zold %}) and we still can use them for the
 merge operation, since we can compare the scores received and decide
 which set of copies dominate.
 
@@ -52,7 +53,7 @@ However, if most of the nodes are slow, the entire network collapses. We simply
 can't make any reasonable decisions about the data in the wallets, because
 we reject the majority of copies coming from the network. We reject too
 often and that affects the accuracy of data. Not just the
-[speed]({% post_url 2018-07-30-how-fast-is-zold %}), but the
+[speed]({% post_url 2018/07/2018-07-30-how-fast-is-zold %}), but the
 accuracy and _trustworthiness_ of information in the wallets!
 
 When too many nodes are too slow, they look dead to most of its clients and

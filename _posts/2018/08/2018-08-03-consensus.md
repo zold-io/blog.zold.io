@@ -32,7 +32,7 @@ to the end of the file. Then the user _pushes_ the wallet to a few nodes.
 The node receives the new version of the wallet file, validates the RSA
 signature, and, if it matches, overwrites the existing file with a new one.
 Then, the node pushes the file to all nodes it is aware of. They do exactly
-the same and [eventually]({% post_url 2018-07-30-how-fast-is-zold %})
+the same and [eventually]({% post_url 2018/07/2018-07-30-how-fast-is-zold %})
 the new version of the file is present in every node of the network.
 
 Sounds like a simple scenario, but let's see what will happen if a user

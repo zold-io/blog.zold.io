@@ -15,7 +15,7 @@ tags: features
 has its own pros and cons. It was designed as an alternative to existing
 dominating cryptocurrencies, like [Bitcoin](https://bitcoin.org/en/),
 [Etherium](https://www.ethereum.org/), and others. As
-[explained earlier]({% post_url 2018-07-08-mission %}),
+[explained earlier]({% post_url 2018/07/2018-07-08-mission %}),
 its mission is to support the revolution of the software
 development industry, [Zerocracy](https://www.zerocracy.com) is leading.
 Explaining what Zold is, I often hear the question:
@@ -60,7 +60,7 @@ Here is the list:
 
   * Transactions are not processed individually, but wallet modifications
     are delivered over the network in packages;
-    This theoretically makes Zold [faster]({% post_url 2018-07-30-how-fast-is-zold %})
+    This theoretically makes Zold [faster]({% post_url 2018/07/2018-07-30-how-fast-is-zold %})
     than any per-transaction network, including VISA and MasterCard.
 
 A more detailed description of each feature can be found in our
