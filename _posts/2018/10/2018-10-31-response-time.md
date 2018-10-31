@@ -6,7 +6,8 @@ author:
   name: Yegor Bugayenko
   twitter: yegor256
 description: |
-  Re
+  GET and PUT HTTP requests in Zold network must be fast
+  enough to guarantee the accuracy and trustworthiness of data.
 tags: architecture
 ---
 
