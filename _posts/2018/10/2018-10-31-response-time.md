@@ -123,4 +123,3 @@ Percentage of the requests served within a certain time (ms)
 As you see, the majority of requests finish in less than 200 milliseconds.
 This is good enough for Zold network to function correctly. We will definitely
 aim for higher speed in the future, but for now these numbers are good enough.
-
