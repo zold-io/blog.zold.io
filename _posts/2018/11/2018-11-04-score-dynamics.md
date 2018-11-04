@@ -6,7 +6,8 @@ author:
   name: Yegor Bugayenko
   twitter: yegor256
 description: |
-  ...
+  Zold score is not a stable or predictable variable; however
+  parallel threads stabilize it to some extend; here is how.
 tags: algorithm
 ---
 
