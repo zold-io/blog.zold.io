@@ -17,21 +17,19 @@ It has a very ambitious technical roadmap.
 
 <!--more-->
 
-This is our current technical focus (most urgent are at the top):
+This is our current technical focus (most urgent and critical are at the top):
 
-  * Launch Telegram bot
-  * Design automated stress tests and analyze their results
+  * Stabilize zold-stress for big numbers, and reach 100 tps
+  * Get rid of memory leakage
   * Packaged PUSH and FETCH
+  * Incremental PUSH and FETCH (to avoid full wallet data transfer)
+  * [#554](https://github.com/zold-io/zold/issues/554): Zombie processes
   * [#315](https://github.com/zold-io/zold/issues/315): Make UPDATE more efficient, via `mtime()`
-  * Migrate "scoring farm" from Ruby to C/C++
   * [#279](https://github.com/zold-io/zold/issues/279): Wallet aliases
   * [#235](https://github.com/zold-io/zold/issues/235): More effective wallet spreading mechanism
   * [#403](https://github.com/zold-io/zold/issues/403): Make node errors visible via HTTP
-  * [#249](https://github.com/zold-io/zold/issues/249): Node aliases for better visibility
   * [#230](https://github.com/zold-io/zold/issues/230): `--trust` for PUSH and PULL
   * [#211](https://github.com/zold-io/zold/issues/211): Help nodes stay visible for longer, if they are reliable
-  * [#176](https://github.com/zold-io/zold/issues/176): Reactive HTTP requests
-  * [#181](https://github.com/zold-io/zold/issues/181): Reboot on new RubyGems release
   * [#140](https://github.com/zold-io/zold/issues/140): HTTPS for the entire RESTful API
   * [#280](https://github.com/zold-io/zold/issues/280): Pro-active pulling of wallets
   * Release [Java client API](https://github.com/zold-io/java-api)
@@ -44,8 +42,18 @@ This is our current technical focus (most urgent are at the top):
   * Incremental HTTP protocol, to avoid traffic duplication
   * Mobile wallet (iOS and Android)
   * Mobile node
+  * Launch Telegram bot
 
 ## 2018
+
+15 Nov<br/>
+[Zold-stress](https://github.com/zold-io/zold-stress), a stress-test automated
+command like toolkit released.
+Score calculating code moved to its own repository [zold-score](https://github.com/zold-io/zold-score),
+and C/C++ implementation introduced.
+Node aliases introduced in [#249](https://github.com/zold-io/zold/issues/249).
+HTTP requests performance improved in [#176](https://github.com/zold-io/zold/issues/176).
+Reboot mechanism is connected to the RubyGems website, in [#181](https://github.com/zold-io/zold/issues/181).
 
 30 Jul<br/>
 [#412](https://github.com/zold-io/zold/issues/412):
