@@ -25,8 +25,9 @@ the chances that it will find the [nonce](https://en.bitcoin.it/wiki/Nonce) for 
 There are over [9,000](https://coin.dance/nodes) "nodes" in Bitcoin at the moment.
 They close [144 blocks](https://www.bitcoinmining.com/what-is-the-bitcoin-block-reward/)
 every day. Each closed block gives the founder of the nonce exactly 12.5 BTC.
-Each node is a pretty expensive [ASIC](https://en.wikipedia.org/wiki/Application-specific_integrated_circuit),
-which has to win against all other nine thousand machines. To help each other
+Each node is group of pretty expensive [ASICs](https://en.wikipedia.org/wiki/Application-specific_integrated_circuit),
+which has to win against all other nodes. In total, there are over three million
+machines in the network. To help each other
 and increase chances, node owners "pool" their resources. The overall
 cost of all Bitcoin nodes at the moment is already over
 [$500m](https://www.reddit.com/r/Bitcoin/comments/5zxn7c/what_is_the_total_cost_of_all_the_bitcoin_mining/).
