@@ -13,7 +13,7 @@ tags: architecture
 ---
 
 [Proof-of-Work](https://en.wikipedia.org/wiki/Proof-of-work_system)
-is the core principle behind many Blockchains, including
+is the core principle behind many blockchains, including
 Bitcoin and Ethereum. The idea behind it is simple: a node, in order to
 win the game and earn something, has to compete with _all other_ nodes.
 There is only one thing that guarantees success in the competition: its
@@ -43,7 +43,7 @@ expensive, but _more_ expensive than the other nodes.
 have a central ledger. Each wallet has its own list of transactions and there
 is no reason for nodes to compete with the entire network in order to earn
 fees (known as "taxes"). With Zold they compete with just a few
-of their neighbour machines. Who gets the reward is decided by the paying
+of their neighbor machines. Who gets the reward is decided by the paying
 wallet owner.
 
 Thanks to this significant architectural advantage, Zold nodes can be, and will
