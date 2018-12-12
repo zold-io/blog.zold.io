@@ -32,14 +32,9 @@ uses as many as it can find.
 If it doesn't pay, feel free to [submit an issue](https://github.com/zold-io/wts.zold.io/issues)
 to GitHub.
 
-All payments are sent from the wallet [17737fee5b825835](http://b1.zold.io/wallet/17737fee5b825835.txt)
+All payments are sent from the wallet
+[17737fee5b825835](http://www.zold.io/ledger.html?wallet=17737fee5b825835)
 (click the link to see the most recent payments sent).
-Try one of these links, if the one above doesn't work:
-[a](http://b2.zold.io:4096/wallet/17737fee5b825835.txt),
-[b](http://159.203.63.90:4096/wallet/17737fee5b825835.txt),
-[c](http://167.99.77.100:4096/wallet/17737fee5b825835.txt),
-[d](http://159.203.19.189:4096/wallet/17737fee5b825835.txt),
-[e](http://138.197.140.42:4096/wallet/17737fee5b825835.txt).
 
 
 <hr/>
