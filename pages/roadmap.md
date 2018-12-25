@@ -19,32 +19,38 @@ It has a very ambitious technical roadmap.
 
 This is our current technical focus (most urgent and critical are at the top):
 
-  * Stabilize zold-stress for big numbers, and reach 100 tps
-  * Get rid of memory leakage
-  * Packaged PUSH and FETCH
-  * Incremental PUSH and FETCH (to avoid full wallet data transfer)
-  * [#554](https://github.com/zold-io/zold/issues/554): Zombie processes
-  * [#315](https://github.com/zold-io/zold/issues/315): Make UPDATE more efficient, via `mtime()`
-  * [#279](https://github.com/zold-io/zold/issues/279): Wallet aliases
-  * [#235](https://github.com/zold-io/zold/issues/235): More effective wallet spreading mechanism
-  * [#403](https://github.com/zold-io/zold/issues/403): Make node errors visible via HTTP
-  * [#230](https://github.com/zold-io/zold/issues/230): `--trust` for PUSH and PULL
-  * [#211](https://github.com/zold-io/zold/issues/211): Help nodes stay visible for longer, if they are reliable
-  * [#140](https://github.com/zold-io/zold/issues/140): HTTPS for the entire RESTful API
-  * [#280](https://github.com/zold-io/zold/issues/280): Pro-active pulling of wallets
-  * Release [Java client API](https://github.com/zold-io/java-api)
-  * [#96](https://github.com/zold-io/zold/issues/96): NScore for PULL
-  * [#74](https://github.com/zold-io/zold/issues/74): Make local changes visible before PUSH
-  * [#43](https://github.com/zold-io/zold/issues/43): Score graph
-  * MongoDB backend
-  * AWS DynamoDB backend
-  * AWS S3 backend
-  * Incremental HTTP protocol, to avoid traffic duplication
-  * Mobile wallet (iOS and Android)
-  * Mobile node
-  * Launch Telegram bot
+  * Memory Leakage: the amount of memory Zold software consumes constantly
+    grows and we have to restart it every few hours.
+
+  * Queue Overflow: the amount of wallets "in process" is growing in some
+    nodes sometimes; this doesn't sound like a valid behavior and most
+    likely means some dead loops.
+
+  * Zold-Stress doesn't demonstrate high-speed results; we have to investigate
+    what's going on and what need to be fixed.
+
+  * Large Traffic: we send wallet content too frequently between nodes, while
+    it's possible to optimize that and return "Not-Modified" for all FETCH
+    operations, if they request the content they already have. We may also
+    want to delivery multiple wallets in one HTTP request ("packaged delivery")
+    and delivery partial content.
+
+  * Database: currently Zold node software keeps wallet data in files, which
+    makes it difficult to manage and slow. Would be great to introduce
+    a database-backed persistence layer, with SQLite, for example.
 
 ## 2018
+
+25 Dec<br/>
+`--tolerate-edges` [introduced](https://github.com/zold-io/zold/issues/633) to increase security;
+`--tolerate-quorum` [introduced](https://github.com/zold-io/zold/issues/639) to increase security;
+[legacy](https://github.com/zold-io/zold/issues/643) wallet content to prohibit overwrites in 24 hours;
+`--shallow` merge [introduced](https://github.com/zold-io/zold/issues/642);
+"Hungry" wallets [added](https://github.com/zold-io/zold/issues/640), to improve wallets distribution mechanism;
+[On-demand](https://github.com/zold-io/zold/issues/650) wallet content delivery to optimize traffic;
+Garbage collection [introduced](https://github.com/zold-io/zold/issues/622) to remove empty and old wallets;
+`repo` JSON attribute [added](https://github.com/zold-io/zold/issues/620) to see the difference between Zold implementations;
+Score strength [increased](https://github.com/zold-io/zold/issues/619) to 8.
 
 15 Nov<br/>
 [Zold-stress](https://github.com/zold-io/zold-stress), a stress-test automated
