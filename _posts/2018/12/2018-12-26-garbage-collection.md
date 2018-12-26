@@ -52,3 +52,6 @@ arrive to it, right? Correct. If Jeff loses it, it's lost forever. Jessica's
 wallet will still have that negative transaction, but Jeff will never receive it.
 The money will be lost forever.
 
+PS. Well, actually, if Jeff still has his private RSA key and remembers
+the ID of the wallet, he can restore it and push to the network.
+
