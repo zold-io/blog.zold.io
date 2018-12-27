@@ -48,22 +48,29 @@ description: |
     </article>
   </div>
 {% endfor %}
-<div>
 
 {% if paginator.total_pages > 1 %}
   <div class="container">
-    <div class="pagination">
-      {% if paginator.previous_page %}
-        {% if paginator.previous_page == 1 %}
-          <a href="/">Back</a>
+    <article>
+      <div class="pagination">
+        {% if paginator.previous_page %}
+          {% if paginator.previous_page == 1 %}
+            <a href="/">Back</a>
+          {% else %}
+            <a href="/p/{{ paginator.previous_page }}">Back</a>
+          {% endif %}
         {% else %}
-          <a href="/p/{{ paginator.previous_page }}">Back</a>
+          <span class="gray">Back</span>
         {% endif %}
-      {% endif %}
-      {{ paginator.page }}/{{ paginator.total_pages }}
-      {% if paginator.next_page %}
-        <a href="/p/{{ paginator.next_page }}">Next</a>
-      {% endif %}
-    </div>
+        &nbsp;
+        {{ paginator.page }}/{{ paginator.total_pages }}
+        &nbsp;
+        {% if paginator.next_page %}
+          <a href="/p/{{ paginator.next_page }}">Next</a>
+        {% else %}
+          <span class="gray">Next</span>
+        {% endif %}
+      </div>
+    </article>
   </div>
 {% endif %}

@@ -17,9 +17,8 @@ $mandarin: #ED7D3A;
 $em: 20px;
 $width: 30 * $em;
 
-%gray {
-  color: gray;
-}
+%gray { color: gray; }
+.gray { @extend %gray }
 
 %small {
   font-size: 0.8em;
@@ -203,5 +202,5 @@ article {
 }
 
 .pagination {
-  margin: 2em auto;
+  text-align: center;
 }
