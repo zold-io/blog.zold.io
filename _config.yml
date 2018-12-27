@@ -22,7 +22,7 @@ gems:
   - jekyll-sitemap
 
 permalink: :year/:month/:day/:title.html
-paginate: 20
+paginate: 8
 paginate_path: "p/:num"
 excerpt_separator: <!--more-->
 
