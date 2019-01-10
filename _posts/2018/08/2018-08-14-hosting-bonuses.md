@@ -29,13 +29,18 @@ selects the best 8 nodes out of those it can see and pays them 1 ZLD,
 distributing equally. If it can't find eight nodes, it
 uses as many as it can find.
 
-If it doesn't pay, feel free to [submit an issue](https://github.com/zold-io/wts.zold.io/issues)
+Pay attention, there is no guarantee that your node will receive
+the bonus every hour!
+
+If it doesn't pay at all, feel free to [submit an issue](https://github.com/zold-io/wts.zold.io/issues)
 to GitHub.
 
 All payments are sent from the wallet
 [17737fee5b825835](http://www.zold.io/ledger.html?wallet=17737fee5b825835)
 (click the link to see the most recent payments sent).
 
+If you want to stay on top of things and monitor our system closely,
+just read this [Telegram channel](https://t.me/zold_wts).
 
 <hr/>
 
