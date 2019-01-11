@@ -27,8 +27,14 @@ First of all, you will need a server. I'd recommend to use
 a [VPS](https://en.wikipedia.org/wiki/Virtual_private_server),
 instead of a dedicated one. You can get it cheap, just browse
 [LowEndBox](https://lowendbox.com/), they have plenty of offers. Make sure
-your VPS has at least 2 CPUs and at least 4 Gb of RAM. The size of the HDD/SDD
-doesn't matter. It should cost you around $25 a year.
+your VPS has at least 2 Gb of RAM. The size of the HDD/SDD
+doesn't matter. It should cost you around $40 a year.
+I recommend:
+[Contabo](https://contabo.com/?show=vps),
+[DigitalOcean](https://www.digitalocean.com),
+[Vultr](https://www.vultr.com/),
+and
+[Linode](https://www.linode.com/pricing).
 
 What is the best operating system? I've tried Ubuntu and CentOS. Ubuntu seems
 easier to configure and more stable. But it's a matter of taste.
