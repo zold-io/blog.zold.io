@@ -21,6 +21,8 @@ database. Others just claimed that "It's the future!"
 
 <!--more-->
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/48mtB40sKhs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Wikipedia at the time of writing [says](https://en.wikipedia.org/wiki/Blockchain)
 that Blockchain is a "growing list of records"
 and a "public ledger". I would actually say that it's a data maintenance
@@ -34,8 +36,6 @@ while each individual element of it is anonymous and that's why, by definition,
 can't be trusted. Each server may corrupt the data and steal our money.
 We would never trust our transactions to it. But we trust
 them to a large group of such servers. Why?
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/48mtB40sKhs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Because all computers in the group vote for our transactions and the
 majority decides which data wins. Then, we hope that the majority of servers
