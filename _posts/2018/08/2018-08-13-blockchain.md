@@ -35,6 +35,8 @@ can't be trusted. Each server may corrupt the data and steal our money.
 We would never trust our transactions to it. But we trust
 them to a large group of such servers. Why?
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/48mtB40sKhs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Because all computers in the group vote for our transactions and the
 majority decides which data wins. Then, we hope that the majority of servers
 are legal and trustworthy, while the minority may be against us, trying
