@@ -78,7 +78,8 @@ This procedure is done automatically every time you make a payment. However,
 you can skip it with `--dont-pay-taxes` option:
 
 {% highlight bash %}
-$ zold pay 00000000000ff1ce 1234123412341234 19.99 'For the pizza' --dont-pay-taxes
+$ zold pay 00000000000ff1ce 1234123412341234 \
+  19.99 'For the pizza' --dont-pay-taxes
 {% endhighlight %}
 
 Unless that option is specified, the `pay` command will always check whether
