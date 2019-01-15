@@ -43,6 +43,8 @@ which were
 [introduced](https://github.com/ethereumproject/go-ethereum/issues/4) in the first days of
 their project. Who owns them, I'm not sure, the file doesn't disclose their names.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8Lr0cFhwE6M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 It is inevitable. There is no other way to build a decentralized system.
 
 In other words, true decentralization is a myth.
