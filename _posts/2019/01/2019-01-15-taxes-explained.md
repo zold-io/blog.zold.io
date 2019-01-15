@@ -65,8 +65,16 @@ Zold command line software will go through the network, find the best looking
 and the closest nodes with the highest scores, and pick one of them, randomly.
 Then, it will make an outgoing transaction from your wallet to the wallet
 of that node. The transaction will contain the information of the score
-of that wallet in the "details" section. Then, you will have to push your
-wallet to the network:
+of that wallet in the "details" section.
+
+Thus, the wallet runs a "lottery" among all visible nodes and the
+one that wins---gets the taxes. The maximum amount of taxes paid in one
+transaction is no more than 16 ZLD. Thus, the wallet owner will run a number
+of lotteries is the tax debt is more than 16 ZLD. BTW, the numbers may
+change in the future, the exact numbers are configured in
+[tax.rb](https://github.com/zold-io/zold/blob/master/lib/zold/tax.rb) file.
+
+Then, you will have to push your wallet to the network:
 
 {% highlight bash %}
 $ zold push 00000000000ff1ce
