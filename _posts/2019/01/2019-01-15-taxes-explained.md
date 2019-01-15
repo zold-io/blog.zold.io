@@ -70,7 +70,12 @@ of that wallet in the "details" section.
 Thus, the wallet runs a "lottery" among all visible nodes and the
 one that wins---gets the taxes. The maximum amount of taxes paid in one
 transaction is no more than 16 ZLD. Thus, the wallet owner will run a number
-of lotteries is the tax debt is more than 16 ZLD. BTW, the numbers may
+of lotteries is the tax debt is more than 16 ZLD.
+Since node owners are interested to win these lotteries more often, they
+will try to make their servers more stable and available---this is how
+Zold clients decide which nodes to work with, and that's who they will choose
+to participate in the lotteries.
+BTW, the numbers may
 change in the future, the exact numbers are configured in
 [tax.rb](https://github.com/zold-io/zold/blob/master/lib/zold/tax.rb) file.
 
