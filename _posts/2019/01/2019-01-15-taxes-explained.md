@@ -98,6 +98,9 @@ $ zold pay 00000000000ff1ce 1234123412341234 \
 Unless that option is specified, the `pay` command will always check whether
 the taxes are paid and will pay them if not.
 
+Of course, if the wallet balance is smaller than the tax debt, you can just
+abandon the wallet and never pay the debt.
+
 Why did we invent this tax paying mechanism instead of more traditional payment
 processing fees, like Bitcoin, Ethereum and many other cryptocurrencies have?
 Because Zold doesn't process transactions, as Blockchain does (in blocks), but
