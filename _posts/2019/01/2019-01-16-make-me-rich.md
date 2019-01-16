@@ -29,7 +29,7 @@ website do not constitute investment advice.
 
 First of all, here is a very important remark: We, in [Zerocracy](https://www.zerocracy.com), believe
 that the value of bitcoin very soon will become stable enough to avoid drops, which are
-larger than 60% per year. For your information, this is the spread BTC managed
+larger than 47% per year. For your information, this is the spread BTC managed
 to [demonstrate](https://coinmarketcap.com/currencies/bitcoin/historical-data/)
 over the last years (thanks to [@ammaratef45](https://github.com/ammaratef45) for helping me prepare the data):
 
@@ -70,15 +70,16 @@ We _promise_ to increase the rate each month, by 4%.
 
 You wait a year and exchange your 4000 zolds to 1.6 bitcoins.
 
-You sell bitcoins and get $5,808 back.
+You sell bitcoins and get $5,343 back (you pay 8% fee for your
+selling operation).
 
-Your profit is $2,178 or 60% per year.
+Your profit is $1,715 or 47% per year.
 
 Not bad, huh?
 
 What can go wrong? There are basically three risks:
 
-  * The value of bitcoin may drop for more than 60%.
+  * The value of bitcoin may drop for more than 47%.
 
   * We may not increase the rate by 4% a month.
 
