@@ -19,9 +19,6 @@ It has a very ambitious technical roadmap.
 
 This is our current technical focus (most urgent and critical are at the top):
 
-  * Memory Leakage: the amount of memory Zold software consumes constantly
-    grows and we have to restart it every few hours.
-
   * Queue Overflow: the amount of wallets "in process" is growing in some
     nodes sometimes; this doesn't sound like a valid behavior and most
     likely means some dead loops.
@@ -40,6 +37,12 @@ This is our current technical focus (most urgent and critical are at the top):
     a database-backed persistence layer, with SQLite, for example.
 
 History:
+
+20-Jan-18:<br/>
+Memory leakage has been [fixed](https://github.com/zold-io/zold/issues/672).
+Thanks to that the entire network is stable now. Server software runs
+without interruption for days. This was a bug (or a feature) in Ruby,
+but we weren't able to find it for a few months.
 
 25-Dec-18:<br/>
 `--tolerate-edges` [introduced](https://github.com/zold-io/zold/issues/633) to increase security;
