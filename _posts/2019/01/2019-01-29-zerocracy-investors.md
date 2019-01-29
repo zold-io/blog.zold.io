@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Zerocracy Long-Term Investments
+title: How to Invest in Zerocracy
 date: 2019-01-29
 author:
   name: Yegor Bugayenko
@@ -59,17 +59,12 @@ price will go up after the IPO (which often happens).
 
 What if this won't happen? What if there will be no IPO in the next five years?
 
-To be continued...
-
-<!--
-
-In that case, there is a plan B for you. Zerocracy owns 8% of the entire
-Zold capacity, which is around 160 million ZLD. We promise to buy you back
-with 2x in a year after your investment, if you don't feel comfortable of holding
+In that case, there is a plan B for you. We promise to buy you back
+with 2x in two years after your investment, if you don't feel comfortable of holding
 longer. We will pay you as many ZLD as your initial investment was equal to,
 at the moment of investment. For example, right now your $200,000 equals to
 224,719 ZLD (the rate is around $0.89 per zold). Thus, we promise to buy
 you out for 449,438 ZLD in a year. You will have a one-time opportunity to
 do so, within a year.
 
--->
+When you are ready, just [email us](mailto:investor@zerocracy.com).
