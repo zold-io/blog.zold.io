@@ -31,7 +31,7 @@ website do not constitute investment advice.
 
 More official information is [here](https://papers.zold.io/fin-model.pdf),
 by the way. This blog post just paints
-the future for that rather informally.
+the future, rather informally.
 
 First, you give us your money. Let's say, $200,000 (we don't accept anything
 smaller than $100,000 at the moment). You can either wire them to our
