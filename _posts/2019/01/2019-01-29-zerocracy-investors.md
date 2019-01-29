@@ -43,8 +43,8 @@ a startup incubator that invested into AirBnb, Dropbox, and others. The "cap"
 in the document will be set to $16,000,000 (at the time of writing this blog post).
 
 This will mean exactly this (here is a [large blog post](https://www.yegor256.com/2016/05/17/convertible-notes.html)
-from me, explaining how SAFE works): once the company is sold or IPO listed
-in an exchange, you will get 1.25% of its equity. Until that monent, you
+from me, explaining how SAFE works): once the company is sold or gets listed
+in any exchange (IPO), you will get 1.25% of its equity. Until that monent, you
 just have this SAFE paper in your hands and nothing else. You will not
 get any dividends from us, you will not share any profit, you will not
 make any decisions in the company. You just hold a promise from us that we
