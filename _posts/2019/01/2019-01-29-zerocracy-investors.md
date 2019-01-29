@@ -64,7 +64,7 @@ with 2x in two years after your investment, if you don't feel comfortable of hol
 longer. We will pay you as many ZLD as your initial investment was equal to,
 at the moment of investment. For example, right now your $200,000 equals to
 224,719 ZLD (the rate is around $0.89 per zold). Thus, we promise to buy
-you out for 449,438 ZLD in a year. You will have a one-time opportunity to
-do so, within a year.
+you out for 449,438 ZLD in a year, if you will feel like it. You will have
+to make that decision in exactly two years after the investment.
 
 When you are ready, just [email us](mailto:investor@zerocracy.com).
