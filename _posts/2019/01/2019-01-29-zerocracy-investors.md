@@ -57,10 +57,12 @@ How exactly you will get that cash? You will simply sell you shares of stocks in
 exchange or you will be able to hold them even further, hoping that the
 price will go up after the IPO (which often happens).
 
+<!--
 What if this won't happen? What if there will be no IPO in the next five years?
 
 In that case, there is a plan B for you. Zerocracy owns 8% of the entire
 Zold capacity, which is around 160 million ZLD. Your $200K investment
 entitles you to get ahold of 2 million ZLD, once
 
+ -->
 
