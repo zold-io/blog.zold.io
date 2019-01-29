@@ -59,6 +59,12 @@ price will go up after the IPO (which often happens).
 
 What if this won't happen? What if there will be no IPO in the next five years?
 
+In this case we will sell the company to some other bigger enterprise. In such
+a case you will also get 1.25% of everything that company will pay for
+Zerocracy. How much will that be, we don't know, but most likely
+many times more than our current cap of $16m.
+
+What if we can't make Zerocracy as big as we plan and you get tired of waiting?
 In that case, there is a plan B for you. We promise to buy you back
 with 2x in two years after your investment, if you don't feel comfortable of holding
 longer. We will pay you as many ZLD as your initial investment was equal to,
