@@ -47,8 +47,8 @@ from me, explaining how SAFE works): once the company is sold or gets listed
 in any exchange (IPO), you will get 1.25% of its equity. Until that monent, you
 just have this SAFE paper in your hands and nothing else. You will not
 get any dividends from us, you will not share any profit, you will not
-make any decisions in the company. You just hold a promise from us that we
-will give you 1.25% once the company gets out of our control.
+make any decisions in the company. You just hold a promise from us that you
+will receive 1.25% once the company gets out of our control.
 
 We predict this happens (the IPO, we are not going to sell it, ever) in 2024
 and our market cap at that time will be somewhere around $4 billion. Thus,
