@@ -14,11 +14,11 @@ tags: money
 
 In the previous [blog post]({% post_url 2019/01/2019-01-16-make-me-rich %})
 I explained how you can get rich via
-Zold investments. That was for short-term investors, who are basically
+Zold investments. That was our plan for short-term investors, who are basically
 willing to lend us money and get away with a decent profit in a few months.
 There is yet another possibility to help us and become rich together
-with us---by making long-term strategic investments into Zerocracy shares
-of stock. Here is how.
+with us---by making long-term strategic investments into shares
+of stock of Zerocracy.
 
 <!--more-->
 
