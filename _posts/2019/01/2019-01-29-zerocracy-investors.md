@@ -50,7 +50,7 @@ get any dividends from us, you will not share any profit, you will not
 make any decisions in the company. You just hold a promise from us that you
 will receive 1.25% once the company gets out of our control.
 
-We predict this happens (the IPO, we are not going to sell it, ever) in 2024
+We predict this happens (I mean the IPO, since we are not going to sell, ever) in 2024
 and our market cap at that time will be somewhere around $4 billion. Thus,
 your return will be $50 million, which is 250x in five years. Not bad, right?
 How exactly you will get that cash? You will simply sell you shares of stocks in any
