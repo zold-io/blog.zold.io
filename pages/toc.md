@@ -12,6 +12,12 @@ tags: strategy
 ---
 
 <article itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting">
+<p>
+  There are
+  {{ site.posts.size }}
+  articles:
+</p>
+
 {% for page in site.posts %}
   <p>
     <a href="{{ page.url }}">
