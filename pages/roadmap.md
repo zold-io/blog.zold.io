@@ -19,10 +19,6 @@ It has a very ambitious technical roadmap.
 
 This is our current technical focus (most urgent and critical are at the top):
 
-  * Queue Overflow: the amount of wallets "in process" is growing in some
-    nodes sometimes; this doesn't sound like a valid behavior and most
-    likely means some dead loops.
-
   * Zold-Stress doesn't demonstrate high-speed results; we have to investigate
     what's going on and what need to be fixed.
 
@@ -38,7 +34,15 @@ This is our current technical focus (most urgent and critical are at the top):
 
 History:
 
-20-Jan-18:<br/>
+6-Feb-19:<br/>
+Queue Overflow problem is gone.
+The amount of wallets "in process" was growing in some
+nodes sometimes; this didn't sound like a valid behavior and most
+likely meant some dead loops. Indeed, there were duplicate
+PUSH operations accomplished by most nodes. The problem has been
+fixed.
+
+20-Jan-19:<br/>
 Memory leakage has been [fixed](https://github.com/zold-io/zold/issues/672).
 Thanks to that the entire network is stable now. Server software runs
 without interruption for days. This was a bug (or a feature) in Ruby,
