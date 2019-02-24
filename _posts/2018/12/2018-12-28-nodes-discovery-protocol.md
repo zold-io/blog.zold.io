@@ -48,7 +48,7 @@ This reconnection procedure helps keep the network connected well enough. Nodes
 are never lost.
 
 There is one more thing that is important to mention. When a node receives
-a request with the `X-Zold-Score` header insdide, it pays attention only
+a request with the `X-Zold-Score` header inside, it pays attention only
 if the value of the score is 4 or above. Otherwise, the remote node is not
 added to the list of neighbours. Thus, when you just start a node
 and no other nodes know about it yet, you have to wait for a few hours,
