@@ -112,9 +112,15 @@ BTW, every time if something goes wrong, you may see the error message
 in the `X-Zold-Error` HTTP header of the response. Simply put, if this
 header is present, there was some error on the server.
 
+## Using Your Wallet
+
+Aside from sending and receiving zolds you may be interested to
+check your wallet balance, see the list of transactions, download
+your private RSA key and do some other things, which are provided
+by the WTS API. The API is fully documented [here](https://github.com/zold-io/wts.zold.io).
+If you have any questions or suggestions, don't hesitate to
+[submit a ticket](https://github.com/zold-io/wts.zold.io/issues).
+
 If something doesn't work as expected, don't hesitate to ask for help
 in our [Telegram group](https://t.me/zold_io) or simply submit a GitHub
-ticket [here](https://github.com/zold-io/wts.zold.io/issues). More technical
-details about the API you can find [here](https://github.com/zold-io/wts.zold.io).
-
-
+ticket [here](https://github.com/zold-io/wts.zold.io/issues).
