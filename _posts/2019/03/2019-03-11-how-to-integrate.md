@@ -100,11 +100,21 @@ Then, you should check the status of the job here, using `J` as the job ID
 you just received:
 
 {% highlight text %}
-GET /job?id=J
+GET /job.json?id=J
 {% endhighlight %}
 
-If the status of the response is 200 and the body is `OK`, the payment has been
-sent. If the status is 200 and the body is `Running`, it's still in processing.
+The JSON document you will receive will look like this:
+
+{% highlight json %}
+{
+  "id": "sjks-8sjs-sjUJs-sjkIIL",
+  "status": "OK",
+  "output_length": 15362
+}
+{% endhighlight %}
+
+If the `status` element of the JSON is `OK`, the payment has been
+sent. If the `status` is `Running`, it's still in processing.
 In all other cases, the payment request was not successful. More details
 of the problem you can get at this URL:
 
