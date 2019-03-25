@@ -34,6 +34,13 @@ This is our current technical focus (most urgent and critical are at the top):
 
 History:
 
+25-Mar-19:<br/>
+Security problems solved, `--baseline`, `--legacy`, `--trusted` parameters
+introduced, which made sure that we are not afraid of 51% attack anymore.
+However, we seriously depend on master nodes, and this is the problem
+to be fixed in the future. We may also want to get rid of scores (proof-of-work)
+and move to proof-of-availability, which has to be invented and implemented.
+
 6-Feb-19:<br/>
 Queue Overflow problem is gone.
 The amount of wallets "in process" was growing in some
