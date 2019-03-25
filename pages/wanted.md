@@ -19,7 +19,7 @@ If you are interested in volunteering, please text us in our
 <!--more-->
 
 There is no particular order.
-You will get **256 ZLD** for each published article.
+You will get **64 ZLD** for each published article.
 
 * What are the pros and cons of our key competitors, like Bitcoin, Ethereum, Nano, IOTA, etc.?
 
