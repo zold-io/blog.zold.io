@@ -72,6 +72,12 @@ Here, `A` will be the amount of zents just arrived to your wallet, `R` and `T`
 will be the numbers you generated before. Using them, you can find the customer
 in your database and apply the incoming payment to their balance.
 
+Your server has to respond with 200 status code and the body of the
+response must be `OK`. If this won't happen for any reason (for example,
+your server is temporary down), the WTS will make another attempt to send
+you the GET request in a few minutes. It will keep making those attempts
+for 24 hours and then it will give up.
+
 ## Sending Zolds
 
 Sending is easier. You just make a single POST HTTP request, which should
