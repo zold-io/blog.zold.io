@@ -35,7 +35,7 @@ This is our current technical focus (most urgent and critical are at the top):
 History:
 
 25-Mar-19:<br/>
-Security problems solved, `--baseline`, `--legacy`, `--trusted` parameters
+Security problems solved, `--baseline`, `--legacy`, `--trusted`, and `--depth` parameters
 introduced, which made sure that we are not afraid of 51% attack anymore.
 However, we seriously depend on master nodes, and this is the problem
 to be fixed in the future. We may also want to get rid of scores (proof-of-work)
