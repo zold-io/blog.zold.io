@@ -66,7 +66,9 @@ First, you buy one bitcoin for $3,630 (at the time of writing).
 Then, you [exchange]({% post_url 2018/12/2018-12-09-btc-to-zld %})
 it to 4000 zolds (current rate is [here](https://wts.zold.io/rate)).
 
-We _promise_ to increase the rate each month, by 4%.
+We _promise_ to increase the rate each month, by 4%
+(of course, keep in mind that it is just a promise and we may
+change it in the future even without notice).
 
 You wait a year and exchange your 4000 zolds to 1.6 bitcoins.
 
