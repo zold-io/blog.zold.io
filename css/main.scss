@@ -2,19 +2,8 @@
 ---
 @charset 'utf-8';
 
-$black: #000;
-$dark: #373937;
-$white: #fff;
-$red: #FB3640;
-$blue: #1F487E;
-$lightblue: #247BA0;
-$mandarin: #ED7D3A;
-
 $em: 20px;
 $width: 30 * $em;
-
-%gray { color: gray; }
-.gray { @extend %gray }
 
 %small {
   font-size: 0.8em;
@@ -45,7 +34,7 @@ section {
 body {
   font-size: $em;
   line-height: 1.4em;
-  background-color: $white;
+  background-color: white;
 }
 
 section {
@@ -97,7 +86,7 @@ header {
         text-decoration: none;
 
         &:hover {
-          color: $mandarin;
+          color: chocolate;
         }
       }
     }
@@ -105,8 +94,8 @@ header {
 }
 
 footer {
-  @extend %gray;
   @extend %small;
+  color: silver;
 }
 
 article {
@@ -117,13 +106,13 @@ article {
   a {
     color: inherit;
     text-decoration: none;
-    background: linear-gradient($mandarin, $mandarin);
+    background: linear-gradient(chocolate, chocolate);
     background-position: 0 1.1em;
     background-repeat: repeat-x;
     background-size: 1px 4px;
     &:hover {
       text-decoration: none;
-      background: linear-gradient($red, $red);
+      background: linear-gradient(orangered, orangered);
       background-position: 0 1.1em;
       background-repeat: repeat-x;
       background-size: 1px 4px;
@@ -148,7 +137,6 @@ article {
     a {
       text-decoration: none;
       background: none;
-      color: $dark;
     }
   }
 
@@ -159,7 +147,7 @@ article {
   pre {
     font-size: 0.8em;
     line-height: 1.3em;
-    border-left: .2em solid $dark;
+    border-left: .2em solid darkslategray;
     padding-left: 1em;
     margin-top: 4em;
     margin-bottom: 4em;
@@ -181,7 +169,7 @@ article {
     margin: 2em auto;
     width: 50%;
     height: 1px;
-    background-color: $blue;
+    background-color: steelblue;
   }
 
   .equation {
