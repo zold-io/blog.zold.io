@@ -14,7 +14,7 @@ tags: algorithm
 [Keygap]({% post_url 2018/07/2018-07-18-keygap %}),
 as you know, is a small piece of text extracted from your private
 RSA key in order to prevent your money loss in case of our database
-is corrupted. You get the Keygap when you register your account
+is stolen. You get the Keygap when you register your account
 with [WTS](https://wts.zold.io) or any other client of the WTS,
 like a mobile wallet. What if you lose it? Can you restore the access
 to your wallet somehow? Not really.
