@@ -30,6 +30,7 @@ somewhere in your records. The screen should look like this:
 <img src="/images/2019/03/wts-confirm.png"/>
 
 This is your keygap. You have to save it and never share with anyone.
+We don't keep it in our database. Nobody knows it, except you.
 
 What do you do if you lost it?
 
