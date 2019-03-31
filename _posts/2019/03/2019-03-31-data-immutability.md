@@ -110,3 +110,4 @@ Thus, Zold is immutable as long as
 [master]({% post_url 2018/12/2018-12-27-masters-and-edges %}) nodes run
 legal software and don't manipulate the score.
 
+PS. Most probably we will get rid of master nodes in the nearest future.
