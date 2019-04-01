@@ -91,7 +91,8 @@ There are no blocks.
 
 <span class="par">Social media links</span>
 [Facebook](https://facebook.com/zerocracy),
-[Twitter](https://twitter.com/0crat).
+[Twitter](https://twitter.com/0crat),
+[Instagram](https://www.instagram.com/zerocracy/).
 
 <span class="par">Telegram group</span>
 [@zold_io](https://t.me/zold_io).
