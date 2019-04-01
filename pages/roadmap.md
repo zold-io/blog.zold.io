@@ -28,6 +28,9 @@ This is our current technical focus (most urgent and critical are at the top):
     want to delivery multiple wallets in one HTTP request ("packaged delivery")
     and delivery partial content.
 
+  * No SSL: nodes still communicate via an open and insecure HTTP
+    protocol. This is a pretty serious threat, we have to start using HTTPS.
+
   * Database: currently Zold node software keeps wallet data in files, which
     makes it difficult to manage and slow. Would be great to introduce
     a database-backed persistence layer, with SQLite, for example.
