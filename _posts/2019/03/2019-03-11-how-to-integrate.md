@@ -49,6 +49,16 @@ The JSON you get in return will look similar to this:
 }
 {% endhighlight %}
 
+You may receive an error with `X-Zold-Error` HTTP header, which will
+start from `100:`. If this happens you should do:
+
+{% highlight text %}
+GET /pull
+{% endhighlight %}
+
+And then try to get the invoice again. If you get the error again, try to
+pull again. And so on, until you get the invoice.
+
 Then, you generate two secret numbers: `R` and `T` (make sure they are long enough, at least 8 digits each).
 You keep these two numbers somewhere in your database, attached to this
 particular payment you are expecting from this particular customer.
