@@ -42,7 +42,11 @@ GET https://wts.zold.io/invoice.json
 The JSON you get in return will look similar to this:
 
 {% highlight text %}
-{ "prefix": "JjsY7sLns", "invoice": "JjsY7sLns@0123456701234567" }
+{
+  "id": "0123456701234567",
+  "prefix": "JjsY7sLns",
+  "invoice": "JjsY7sLns@0123456701234567"
+}
 {% endhighlight %}
 
 Then, you generate two secret numbers: `R` and `T` (make sure they are long enough, at least 8 digits each).
