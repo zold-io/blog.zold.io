@@ -58,7 +58,7 @@ generated and mention number `R` in the payment details.
 Then, you make an HTTP request to the Callback API:
 
 {% highlight text %}
-GET /wait-for?prefix=P&regexp=R&uri=U&token=T
+GET /wait-for?id=ID&prefix=P&regexp=R&uri=U&token=T
 {% endhighlight %}
 
 Here, `P` is the prefix from the invoice you just generated, and `U` is
