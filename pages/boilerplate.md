@@ -90,6 +90,9 @@ None.
 <span class="par">Total supply</span>
 2.15 billion.
 
+<span class="par">Programming language</span>
+[Ruby](https://blog.zold.io/2018/07/20/why-ruby.html).
+
 <span class="par">Social media links</span>
 [Facebook](https://facebook.com/zerocracy),
 [Twitter](https://twitter.com/0crat),
