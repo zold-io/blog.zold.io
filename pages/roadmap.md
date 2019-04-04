@@ -35,6 +35,10 @@ This is our current technical focus (most urgent and critical are at the top):
     makes it difficult to manage and slow. Would be great to introduce
     a database-backed persistence layer, with SQLite, for example.
 
+  * Windows: at the moment our software doesn't run on Windows platform,
+    and it's only sad. We have to make sure that our nodes run
+    on Windows.
+
 History:
 
 25-Mar-19:<br/>
