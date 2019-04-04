@@ -31,7 +31,8 @@ about Zold cryptocurrency. If something is missing, please
 Zold.
 
 <span class="par">Author and creator</span>
-[Zerocracy Inc.](https://www.zerocracy.com)
+[Yegor Bugayenko](https://www.yegor256.com)
+CEO of [Zerocracy Inc.](https://www.zerocracy.com)
 
 <span class="par">GitHub Repository</span>
 [zold-io/zold](https://github.com/zold-io/zold)
@@ -83,8 +84,8 @@ No, it's pre-mined.
 <span class="par">Mining algorithm</span>
 None.
 
-<span class="par">Block observer</span>
-There are no blocks.
+<span class="par">Block observer/explorer</span>
+[Here](http://www.zold.io/ledger.html)
 
 <span class="par">Total supply</span>
 2.15 billion.
@@ -96,3 +97,6 @@ There are no blocks.
 
 <span class="par">Telegram group</span>
 [@zold_io](https://t.me/zold_io).
+
+<span class="par">HQ email</span>
+[ceo@zerocracy.com](mailto:ceo@zerocracy.com).
