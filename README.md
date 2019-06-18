@@ -3,12 +3,11 @@
 [![Build Status](https://travis-ci.org/zold-io/blog.zold.io.svg?branch=master)](https://travis-ci.org/zold-io/blog.zold.io)
 [![Hits-of-Code](https://hitsofcode.com/github/zold-io/blog.zold.io)](https://hitsofcode.com/github/zold-io/blog.zold.io)
 [![Availability at SixNines](https://www.sixnines.io/b/ee43)](https://www.sixnines.io/h/ee43)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/yegor256/takes/blob/master/LICENSE.txt)
 
 Here is the [White Paper](https://papers.zold.io/wp.pdf).
 
 Join our [Telegram group](https://t.me/zold_io) to discuss it all live.
-
-The license is [MIT](https://github.com/zold-io/zold/blob/master/LICENSE.txt).
 
 If you want to contribute with an article, you should
 just submit a pull request with your new file in `_drafts`
