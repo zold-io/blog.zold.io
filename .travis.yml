@@ -1,5 +1,0 @@
-language: ruby
-script:
-  - bundle update
-  - jekyll build
-
