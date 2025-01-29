@@ -58,4 +58,3 @@ reliable enough, will not be forgotten.
 
 Once your node is known to others, you will see it in the
 [/health](http://www.zold.io/health.html) page.
-

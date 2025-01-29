@@ -94,4 +94,3 @@ where WTS posts system messages about the network. They may help you understand
 what's going on under the hood.
 
 Thanks for supporting [Zold and Zerocracy]({% post_url 2018/07/2018-07-08-mission %})!
-

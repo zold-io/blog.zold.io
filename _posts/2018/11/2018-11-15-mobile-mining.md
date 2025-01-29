@@ -60,4 +60,3 @@ devices, it will be almost impossible to 51%-attack the network.
 There are no mining pools in Zold and no centralized control of resources.
 Consequently, Zold is the only truly decentralized and distributed cryptocurrency,
 where wallet owners are the real owners of their digital money.
-

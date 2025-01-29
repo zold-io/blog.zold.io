@@ -75,4 +75,3 @@ involved. The cummulative trust of the group is a derivative of the amount
 of conflicts they have between each other. FYI, there are
 about [ten major players](https://www.blockchain.com/en/pools)
 in the Bitcoin network at the time of writing.
-

@@ -69,5 +69,3 @@ This approach is also known as [proof-of-work](https://en.wikipedia.org/wiki/Pro
 The part of the network is considered larger, if the cumulative score
 of its nodes is bigger. By comparing cumulative scores of wallet versions,
 the node in conflict makes a decision which transaction to trust.
-
-

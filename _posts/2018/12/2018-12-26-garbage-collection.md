@@ -54,4 +54,3 @@ The money will be lost forever.
 
 PS. Well, actually, if Jeff still has his private RSA key and remembers
 the ID of the wallet, he can restore it and push to the network.
-

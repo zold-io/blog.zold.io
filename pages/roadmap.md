@@ -124,5 +124,3 @@ Version [0.1](https://github.com/zold-io/zold/tree/0.1) has been
 The idea was born.
 It became obvious that having our own cryptocurrency would be
 benefitial for [Zerocracy](https://www.zerocracy.com).
-
-

@@ -96,4 +96,3 @@ Technically, the profit you will get is coming from the business
 Zerocracy will make, using your bitcoins (to attract strategic venture investors).
 So, by buying ZLD now you are lending bitcoins to us.
 We _promise_ to return them with an interest.
-

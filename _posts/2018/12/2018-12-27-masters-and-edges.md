@@ -70,4 +70,3 @@ of wallets and transactions will grow.
 
 And, by the way, any client can disable this additional trust check, by using
 this newly introduced command like argument: `--tolerate-edges`.
-

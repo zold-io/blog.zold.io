@@ -98,4 +98,3 @@ the more stable is the output. On the other hand, each thread is an additional
 CPU load.
 
 The number of threads is configured via `--threads` command line argument.
-

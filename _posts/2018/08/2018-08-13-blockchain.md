@@ -58,5 +58,3 @@ all group members trust each other. I can't really understand what
 "private Blockchains" are for. If the network is private and owned by a single
 organization, the servers are trustworthy. What is the point of duplicating
 the data and paying for the data reduncancy. Why can't we just use MySQL?
-
-
