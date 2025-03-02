@@ -1,4 +1,11 @@
 .DS_Store
-_site
+.bundle/
+.idea/
+.yardoc/
 Gemfile.lock
+_site
+coverage/
+doc/
+node_modules/
+rdoc/
 vendor/
