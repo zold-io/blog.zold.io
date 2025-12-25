@@ -1,0 +1,8 @@
+# SPDX-FileCopyrightText: Copyright (c) 2018-2025 Zerocracy
+# SPDX-License-Identifier: MIT
+
+[default.extend-words]
+# Example keygap value in keygap.md
+vOt = "vOt"
+# Part of wallet ID in keygap.md code block
+dbe = "dbe"

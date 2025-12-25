@@ -1,4 +1,4 @@
-<img src="http://www.zold.io/logo.svg" width="92px" height="92px"/>
+# Blog of Zold
 
 [![jekyll](https://github.com/zold-io/blog.zold.io/actions/workflows/jekyll.yml/badge.svg)](https://github.com/zold-io/blog.zold.io/actions/workflows/jekyll.yml)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/yegor256/takes/blob/master/LICENSE.txt)
@@ -28,14 +28,16 @@ and
 Then, run this:
 
 ```bash
-$ bundle update
-$ bundle exec jekyll serve --future --drafts
+bundle update
+bundle exec jekyll serve --future --drafts
 ```
 
-Then, open this URL in your browser: [http://localhost:4000](http://localhost:4000).
+Then, open this URL in your browser:
+[http://localhost:4000](http://localhost:4000).
 You may continue making changes to your text in the `_drafts` directory
 and refresh the page.
 
-Please, make sure your blog post looks brilliant before submitting a pull request.
+Please, make sure your blog post looks brilliant
+before submitting a pull request.
 
 Thanks for reading us and writing with us!

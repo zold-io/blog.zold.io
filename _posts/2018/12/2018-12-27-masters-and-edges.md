@@ -37,7 +37,7 @@ Jonas Schnelli, Peter Todd, and Sjors Provoost. When a new Bitcoin node starts,
 it discovers the network through one or a few of those seven "master" nodes.
 
 [Ethereum](https://www.ethereum.org/)
-has ten "boostrap" nodes (at the time of writing hard-coded in
+has ten "bootstrap" nodes (at the time of writing hard-coded in
 [`mainnet_bootnodes.json`](https://github.com/ethereumproject/go-ethereum/blob/5291a2863d27e68310722e2ab9facff438e23cd8/core/config/mainnet_bootnodes.json)),
 which were
 [introduced](https://github.com/ethereumproject/go-ethereum/issues/4) in the first days of

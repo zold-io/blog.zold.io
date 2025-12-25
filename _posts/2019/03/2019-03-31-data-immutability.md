@@ -56,7 +56,7 @@ problem is right in front of us!
 
 Now it's time to _merge_ these two copies into one. There are two types
 of transactions: incoming and outgoing. The merging algorithm goes
-through all avaiable copies, starting with the most "scored" one,
+through all available copies, starting with the most "scored" one,
 and decides what to do with the transactions found. Outgoing transactions
 get into the resulting copy with a simple validation: their RSA signatures
 must match the public RSA key of the wallet. In other words, if the

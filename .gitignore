@@ -1,8 +1,9 @@
-_site
 .bundle/
+.claude/
 .DS_Store
 .idea/
 .yardoc/
+_site
 coverage/
 doc/
 Gemfile.lock

@@ -16,7 +16,7 @@ by one serious problem---our nodes were not _responsive_ enough. This
 literally means that they were not responding to HTTP requests as fast
 as it would be required for the network to function correctly. Why
 response time is important and what happens when nodes get slow?
-Here is my post-mortem analysys. Yes, the problem is gone and now it's
+Here is my post-mortem analysis. Yes, the problem is gone and now it's
 time to analyze why the speed of data delivery is so crucial for Zold.
 
 <!--more-->

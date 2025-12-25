@@ -71,7 +71,7 @@ most popular at the moment.
 Hence, the bigger the amount of server owners,
 the more trustable is the cryptocurrency. The amount of servers is not
 so important. What is important is the amount or people and organizations
-involved. The cummulative trust of the group is a derivative of the amount
+involved. The cumulative trust of the group is a derivative of the amount
 of conflicts they have between each other. FYI, there are
 about [ten major players](https://www.blockchain.com/en/pools)
 in the Bitcoin network at the time of writing.

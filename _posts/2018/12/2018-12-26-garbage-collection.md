@@ -14,7 +14,7 @@ tags: concept
 
 The mechanism of garbage collecting was recently
 [introduced](https://github.com/zold-io/zold/issues/622) in
-our server-side sofware. It's simple: the node automatically
+our server-side software. It's simple: the node automatically
 removes all empty wallets, which are older than 10 days. What is the
 purpose of this process and what are its possible negative consequences?
 There are some, let me show you.
