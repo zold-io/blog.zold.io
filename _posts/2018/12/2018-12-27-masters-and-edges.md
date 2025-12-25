@@ -63,7 +63,7 @@ network will fail if no master nodes took participation in it. All other nodes,
 which are not masters (and they are obviously in majority) we call "edges."
 Thus, if only edges are returning the wallet, it can not be trusted.
 
-This feature seriosly increases trust in the entire system.
+This feature seriously increases trust in the entire system.
 
 I believe, we will need more master nodes in the future, when the amount
 of wallets and transactions will grow.

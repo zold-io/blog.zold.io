@@ -38,7 +38,7 @@ node, it will be overwritten.
 This means that during the first 24 hours after the moment of transaction
 creation it still can be overwritten by a simple
 [weighed]({% post_url 2018/07/2018-07-22-nscore %}) majority of nodes.
-The stonger group of Zold nodes will decide
+The stronger group of Zold nodes will decide
 where the payment should go. When this time period is over, all nodes
 classify this transaction as a so called "legacy" and don't allow
 anyone to overwrite it (can be turned off with `--skip-legacy` option).
