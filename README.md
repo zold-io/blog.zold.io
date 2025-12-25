@@ -16,8 +16,8 @@ as an example. Just create a copy of it, rename and make
 the necessary changes. Then, leave it in the `_drafts` directory
 and submit a pull request.
 
-[Here](https://blog.zold.io/wanted.html) you can find the list of topics
-we are interested in.
+See the [list](https://blog.zold.io/wanted.html) of topics
+  we are interested in.
 
 If you want to see how your article looks in web, you can "run" the
 blog rendering engine locally. To do that, you will have to install
