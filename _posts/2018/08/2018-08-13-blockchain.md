@@ -45,7 +45,7 @@ trustworthy. We simply believe that the majority is always on our side.
 
 Each server contains a full copy of the entire database, any time ready
 to get into a fight with other servers and vote for the data, to achieve
-so called _consensus_. This extreme redunancy of data is the price we pay
+so called _consensus_. This extreme redundancy of data is the price we pay
 for the trust in Blockchain. For example, at the time of writing,
 9,000+ Bitcoin servers maintain 173Gb of data _each_!
 
@@ -57,4 +57,4 @@ On the other hand, it absolutely makes no sense to use Blockchain when
 all group members trust each other. I can't really understand what
 "private Blockchains" are for. If the network is private and owned by a single
 organization, the servers are trustworthy. What is the point of duplicating
-the data and paying for the data reduncancy. Why can't we just use MySQL?
+the data and paying for the data redundancy. Why can't we just use MySQL?

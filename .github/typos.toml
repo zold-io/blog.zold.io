@@ -4,5 +4,6 @@
 [default.extend-words]
 # Example keygap value in keygap.md
 vOt = "vOt"
+Ot = "Ot"
 # Part of wallet ID in keygap.md code block
 dbe = "dbe"

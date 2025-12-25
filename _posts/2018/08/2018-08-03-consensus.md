@@ -46,7 +46,7 @@ of the wallet to another node.
 Both nodes will validate those payments and will think that they are valid,
 since RSA signatures match and the wallet has enough money. Both nodes
 will think that they got a hold of a perfectly legal transaction.
-Then, they both will try to "convience" their neighbour nodes that the payment
+Then, they both will try to "convince" their neighbour nodes that the payment
 was correct by pushing the wallet to them.
 
 Eventually, some node will receive two versions of the same wallet and won't

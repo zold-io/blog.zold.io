@@ -6,7 +6,7 @@ author:
   name: Yegor Bugayenko
   twitter: yegor256
 description: |
-  While Zold network is still young and the amout of wallets
+  While Zold network is still young and the amount of wallets
   and transactions is small, we support node maintainers
   with regular hosting bonuses.
 tags: taxes
