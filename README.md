@@ -1,7 +1,7 @@
 # Blog of Zold
 
 [![jekyll](https://github.com/zold-io/blog.zold.io/actions/workflows/jekyll.yml/badge.svg)](https://github.com/zold-io/blog.zold.io/actions/workflows/jekyll.yml)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/yegor256/takes/blob/master/LICENSE.txt)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/zold-io/blog.zold.io/blob/master/LICENSE.txt)
 [![Hits-of-Code](https://hitsofcode.com/github/zold-io/blog.zold.io)](https://hitsofcode.com/view/github/zold-io/blog.zold.io)
 [![Availability at SixNines](https://www.sixnines.io/b/ee43)](https://www.sixnines.io/h/ee43)
 
