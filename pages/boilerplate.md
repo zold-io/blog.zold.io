@@ -55,11 +55,11 @@ Zold is a faster and more efficient cryptocurrency alternative to Blockchain-bas
 digital payment systems like Bitcoin and Ethereum. Zold is based on its
 own custom consensus protocol called Zit, which doesn't have a central
 ledger and processes transactions between wallets simultaneously. Zold
-has a potential to process a million transactions per second keeping
-confirmation time as low as one hour.
+has the potential to process a million transactions per second while
+keeping confirmation time as low as one hour.
 
 <span class="par">Full description</span>
-In the last few years digital currencies have successfully demonstrated
+In the last few years, digital currencies have successfully demonstrated
 their ability to become an alternative financial instrument in
 many different markets. Most of the technologies available at the moment
 are based on the principles of Blockchain architecture, including

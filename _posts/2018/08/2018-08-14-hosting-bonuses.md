@@ -14,9 +14,9 @@ tags: taxes
 
 As you know from the [White Paper](https://papers.zold.io/wp.pdf), each
 wallet has to pay _taxes_ to some network nodes in order to stay alive.
-The taxes those nodes collect is the incentive for their owners to keep
+The taxes those nodes collect are the incentive for their owners to keep
 servers online. In other cryptocurrencies this mechanism is called
-_mining_, we call it taxes. However, while the network is still young,
+_mining_; we call it taxes. However, while the network is still young,
 the amount of taxes we can collect is way smaller than what server owners
 pay for the hardware and electricity. That's why, to incentivize them,
 we pay hosting bonuses, on top of taxes.

@@ -54,8 +54,8 @@ This is the problem Bitcoin and other cryptocurrencies, like [Zold](http://www.z
 
 They all invent a protocol, which every single server is supposed to use and follow.
 They use the protocol to constantly exchange the information about
-user accounts and when/if any server starts lying, all other servers ignores
-it or even eject from the group.
+user accounts and when/if any server starts lying, all other servers ignore
+it or even eject it from the group.
 
 Since it is assumed that the majority of servers are not lying, you
 can trust them as a group.
@@ -68,10 +68,10 @@ This "majority vs. minority" protocol, also known as "consensus protocol," is
 the core of any cryptocurrency. Blockchain is one of those protocols and the
 most popular at the moment.
 
-Hence, the bigger the amount of server owners,
-the more trustable is the cryptocurrency. The amount of servers is not
-so important. What is important is the amount or people and organizations
-involved. The cumulative trust of the group is a derivative of the amount
+Hence, the bigger the number of server owners,
+the more trustable is the cryptocurrency. The number of servers is not
+so important. What is important is the number of people and organizations
+involved. The cumulative trust of the group is a derivative of the number
 of conflicts they have between each other. FYI, there are
 about [ten major players](https://www.blockchain.com/en/pools)
 in the Bitcoin network at the time of writing.

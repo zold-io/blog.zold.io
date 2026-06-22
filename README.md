@@ -19,7 +19,7 @@ and submit a pull request.
 See the [list](https://blog.zold.io/wanted.html) of topics
   we are interested in.
 
-If you want to see how your article looks in web, you can "run" the
+If you want to see how your article looks on the web, you can "run" the
 blog rendering engine locally. To do that, you will have to install
 [Ruby 2.3+](https://www.ruby-lang.org/en/documentation/installation/),
 [Rubygems](https://rubygems.org/pages/download),

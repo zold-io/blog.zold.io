@@ -40,7 +40,7 @@ see something similar):
 Each line describes a copy of the wallet
 you have locally on your disc: `#1` in the first line is the unique name of the copy;
 `89` is the accumulative score of all nodes, which provided
-exactly this version of the walle; `7n` is the total amount of them---there were
+exactly this version of the wallet; `7n` is the total number of them---there were
 seven nodes. The information that goes after that is more obvious, I believe.
 It's the ID of the wallet, the balance, the number of transactions, the
 hex digest, and the size of the file. At the end of the line you see
@@ -60,7 +60,7 @@ through all available copies, starting with the most "scored" one,
 and decides what to do with the transactions found. Outgoing transactions
 get into the resulting copy with a simple validation: their RSA signatures
 must match the public RSA key of the wallet. In other words, if the
-owner of the wallet has singed the transaction, we trust it. That's it.
+owner of the wallet has signed the transaction, we trust it. That's it.
 
 Of course, if you signed too many of them, and your total balance of the
 wallet after we merge them all together is negative, the entire merge
@@ -79,9 +79,9 @@ In other words, a total validation is technically impossible. What do we do?
 
 We trust the _baseline_. We treat the first copy in the list as a fully
 trusted baseline and we don't validate what's in it. We just take it
-as is and apply all other copies on to of it. We validate their
+as is and apply all other copies on top of it. We validate their
 incoming transactions by doing fetch and merge of their relative wallets.
-Of course, in each sub-operation we also treat most scored copy
+Of course, in each sub-operation we also treat the most scored copy
 as a baseline.
 
 This baseline mechanism can be turned on by `--no-baseline` option in the
@@ -104,10 +104,10 @@ a wallet after its money has already been spent? In order to do that
 an attacker has to convince other wallets that they should treat
 a new version of the wallet file as a baseline, trust it, never validate
 its incoming transactions, and blindly accept it. This may only happen if a fake master node
-will be speaking with a dominating amount of score.
+speaks with a dominating amount of score.
 
 Thus, Zold is immutable as long as
 [master]({% post_url 2018/12/2018-12-27-masters-and-edges %}) nodes run
 legal software and don't manipulate the score.
 
-PS. Most probably we will get rid of master nodes in the nearest future.
+PS. Most probably we will get rid of master nodes in the near future.

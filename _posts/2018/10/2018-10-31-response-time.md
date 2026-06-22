@@ -15,7 +15,7 @@ We've been having technical issues recently and they all were caused
 by one serious problem---our nodes were not _responsive_ enough. This
 literally means that they were not responding to HTTP requests as fast
 as it would be required for the network to function correctly. Why
-response time is important and what happens when nodes get slow?
+is response time important and what happens when nodes get slow?
 Here is my post-mortem analysis. Yes, the problem is gone and now it's
 time to analyze why the speed of data delivery is so crucial for Zold.
 
@@ -48,7 +48,7 @@ If just a few nodes are slow, while the rest are fast, it's not a big deal. We
 still get the data we need
 [fast enough]({% post_url 2018/07/2018-07-30-how-fast-is-zold %}) and we still can use them for the
 merge operation, since we can compare the scores received and decide
-which set of copies dominate.
+which set of copies dominates.
 
 However, if most of the nodes are slow, the entire network collapses. We simply
 can't make any reasonable decisions about the data in the wallets, because
@@ -57,7 +57,7 @@ often and that affects the accuracy of data. Not just the
 [speed]({% post_url 2018/07/2018-07-30-how-fast-is-zold %}), but the
 accuracy and _trustworthiness_ of information in the wallets!
 
-When too many nodes are too slow, they look dead to most of its clients and
+When too many nodes are too slow, they look dead to most of their clients and
 other nodes. If they are dead, the information they provide can't be trusted.
 If the information can't be trusted, we can't merge wallets anymore with
 any reasonable guarantee.

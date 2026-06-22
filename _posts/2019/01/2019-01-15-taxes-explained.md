@@ -17,7 +17,7 @@ its most active participants, who maintain its hardware. The system is alive
 when it has a big enough number of _nodes_, which are servers working online
 24/7, communicating according to the pre-defined protocol. Zold is not
 different. However, the way cryptocurrency users reward those enthusiasts
-is different in Zold, comparing to <del>most</del> other cryptos. There
+is different in Zold, compared to <del>most</del> other cryptos. There
 are no transaction processing fees. Instead, there are wallet maintenance
 _taxes_. Here is how they work.
 
@@ -33,7 +33,7 @@ wallet via PUSH operation. They will still maintain the wallet, but will
 not allow it to do any modifications.
 
 The amount of taxes each wallet has to pay depends on the age of the wallet
-and the amount of transactions it contains. The larger the wallet and the
+and the number of transactions it contains. The larger the wallet and the
 older it is, the more taxes it has to pay. Say, a one-year-old
 wallet with 4096 transactions has to pay 16 ZLD of taxes. If, say, only 5 ZLD
 is paid, the wallet won't be eligible for modifications---the network
@@ -41,10 +41,10 @@ will reject any attempts to modify it. Again, it doesn't mean the wallet
 will be thrown away. It will remain inside nodes, but only for verification
 purposes.
 
-How does a wallet owner pays taxes?
+How does a wallet owner pay taxes?
 
 It is done with a command line command `taxes`. First, you check how much
-taxes is owed (replace `00000000000ff1ce` with your wallet ID):
+tax is owed (replace `00000000000ff1ce` with your wallet ID):
 
 {% highlight bash %}
 $ zold taxes debt 00000000000ff1ce
@@ -70,8 +70,8 @@ of that wallet in the "details" section.
 Thus, the wallet runs a "lottery" among all visible nodes and the
 one that wins---gets the taxes. The maximum amount of taxes paid in one
 transaction is no more than 16 ZLD. Thus, the wallet owner will run a number
-of lotteries is the tax debt is more than 16 ZLD.
-Since node owners are interested to win these lotteries more often, they
+of lotteries if the tax debt is more than 16 ZLD.
+Since node owners are interested in winning these lotteries more often, they
 will try to make their servers more stable and available---this is how
 Zold clients decide which nodes to work with, and that's who they will choose
 to participate in the lotteries.
@@ -113,7 +113,7 @@ the course of its lifetime, and it may contain thousands of transactions.
 
 Thus, it is more convenient to tax an entire wallet, and do it less often than
 once per each payment. Moreover, Zold is a _cryptocurrency for micropayments_,
-which implies that potentiall there will be many of them in each wallet.
+which implies that potentially there will be many of them in each wallet.
 
 To check whether your wallet is in good standing, run this:
 
@@ -126,4 +126,4 @@ you paid before will cover your wallet as promised. This means that no matter
 how expensive wallet maintenance may be in the future, previous periods will
 be covered by previous payments. If it was 16 ZLD per year for your wallet
 and you already paid for two years, you will have two years covered even if
-it will cost 32 ZLD per year for future users and younger wallets.
+it costs 32 ZLD per year for future users and younger wallets.

@@ -32,7 +32,7 @@ into a group, which we can trust. Not entirely, but much more.
 That's exactly the purpose of Blockchain and similar decentralized data
 structures (like [Tangle](https://en.bitcoinwiki.org/wiki/IOTA)
 or [Zold](https://www.zold.io)): to make a database trustworthy,
-while each individual element of it is anonymous and that's why, by definition,
+while each individual element of it is anonymous and therefore, by definition,
 can't be trusted. Each server may corrupt the data and steal our money.
 We would never trust our transactions to it. But we trust
 them to a large group of such servers. Why?
@@ -40,7 +40,7 @@ them to a large group of such servers. Why?
 Because all computers in the group vote for our transactions and the
 majority decides which data wins. Then, we hope that the majority of servers
 are legal and trustworthy, while the minority may be against us, trying
-to steal our money. Since the amount of servers is big, the group is
+to steal our money. Since the number of servers is big, the group is
 trustworthy. We simply believe that the majority is always on our side.
 
 Each server contains a full copy of the entire database, any time ready
@@ -57,4 +57,4 @@ On the other hand, it absolutely makes no sense to use Blockchain when
 all group members trust each other. I can't really understand what
 "private Blockchains" are for. If the network is private and owned by a single
 organization, the servers are trustworthy. What is the point of duplicating
-the data and paying for the data redundancy. Why can't we just use MySQL?
+the data and paying for the data redundancy? Why can't we just use MySQL?
