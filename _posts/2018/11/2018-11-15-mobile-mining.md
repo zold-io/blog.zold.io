@@ -24,7 +24,7 @@ the chances that it will find the [nonce](https://en.bitcoin.it/wiki/Nonce) for 
 
 There are over [9,000](https://coin.dance/nodes) "nodes" in Bitcoin at the moment.
 They close [144 blocks](https://www.bitcoinmining.com/what-is-the-bitcoin-block-reward/)
-every day. Each closed block gives the founder of the nonce exactly 12.5 BTC.
+every day. Each closed block gives the finder of the nonce exactly 12.5 BTC.
 Each node is a group of pretty expensive [ASICs](https://en.wikipedia.org/wiki/Application-specific_integrated_circuit),
 and it has to compete against all other nodes. In total, there are over three million
 machines in the network. To help each other,
@@ -47,7 +47,7 @@ of their neighbor machines. Who gets the reward is decided by the paying
 wallet owner.
 
 Thanks to this significant architectural advantage, Zold nodes can be, and will
-be, hosted on low-cost hardware, starting from cloud 2-4 CPUs virtual servers
+be, hosted on low-cost hardware, starting from cloud virtual servers with 2-4 CPUs
 down to mobile phones, TV sets, and even watches.
 
 Instead of wasting the planet's resources on expensive equipment dedicated solely

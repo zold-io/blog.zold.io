@@ -44,16 +44,16 @@ in the document will be set to $16,000,000 (at the time of writing this blog pos
 
 This will mean exactly this (here is a [large blog post](https://www.yegor256.com/2016/05/17/convertible-notes.html)
 from me, explaining how SAFE works): once the company is sold or gets listed
-in any exchange (IPO), you will get 1.25% of its equity. Until that monent, you
+in any exchange (IPO), you will get 1.25% of its equity. Until that moment, you
 just have this SAFE paper in your hands and nothing else. You will not
 get any dividends from us, you will not share any profit, you will not
 make any decisions in the company. You just hold a promise from us that you
 will receive 1.25% once the company gets out of our control.
 
-We predict this happens (I mean the IPO, since we are not going to sell, ever) in 2024
+We predict this will happen (I mean the IPO, since we are not going to sell, ever) in 2024
 and our market cap at that time will be somewhere around $4 billion. Thus,
 your return will be $50 million, which is 250x in five years. Not bad, right?
-How exactly you will get that cash? You will simply sell you shares of stocks in any
+How exactly will you get that cash? You will simply sell your shares of stock in any
 exchange or you will be able to hold them even further, hoping that the
 price will go up after the IPO (which often happens).
 
@@ -66,11 +66,11 @@ many times more than our current cap of $16m.
 
 What if we can't make Zerocracy as big as we plan and you get tired of waiting?
 In that case, there is a plan B for you. We promise to buy you back
-with 2x in two years after your investment, if you don't feel comfortable of holding
+with 2x in two years after your investment, if you don't feel comfortable holding
 longer. We will pay you as many ZLD as your initial investment was equal to,
-at the moment of investment. For example, right now your $200,000 equals to
+at the moment of investment. For example, right now your $200,000 equals
 224,719 ZLD (the rate is around $0.89 per zold). Thus, we promise to buy
-you out for 449,438 ZLD in a year, if you will feel like it. You will have
+you out for 449,438 ZLD in a year, if you feel like it. You will have
 to make that decision in exactly two years after the investment.
 
 When you are ready, just [email us](mailto:investor@zerocracy.com).

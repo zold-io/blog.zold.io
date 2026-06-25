@@ -14,11 +14,11 @@ tags: speed
 
 [Zold](https://www.zold.io) is a non-blockchain cryptocurrency without a central ledger.
 Each Zold wallet has its own list of transactions, both positive (coming in)
-and negative (coming out). Two wallets take participation in each payment.
+and negative (coming out). Two wallets take part in each payment.
 The first wallet gets a money spending transaction and the second one
 gets a money receiving transaction. In order to spread the knowledge
 about a new payment both wallets get distributed to as many nodes as possible.
-The question is how long will it take for the entire network to accept
+The question is: how long will it take for the entire network to accept
 new payments, if they are coming in at high speed? What will be the so called
 "confirmation time"?
 
@@ -68,11 +68,11 @@ in approximately 48 seconds (confirmation time):
   alt='equation' class='equation'/>
 </p>
 
-The amount of transactions a single modification contains doesn't seriously
+The number of transactions a single modification contains doesn't seriously
 affect the result of the formula, since the most time consuming part of the update
 operation is the transfer of data between nodes. With 1,000,000 nodes in the
-network and the same _R_ of 16, the confirmation time will be 90 second.
-Pretty fast, huh? As you see, the size of the network has almost no effect to the speed
+network and the same _R_ of 16, the confirmation time will be 90 seconds.
+Pretty fast, huh? As you see, the size of the network has almost no effect on the speed
 of data propagation.
 
 What will indeed slow down the propagation process
@@ -92,7 +92,7 @@ of the wallets flow:
   alt='equation' class='equation'/>
 </p>
 
-With the current _S_ of 50 seconds and the insentity _F_ of a thousand wallets per second,
+With the current _S_ of 50 seconds and the intensity _F_ of a thousand wallets per second,
 the approximate length of the package will be 50,000 wallets:
 
 <p style="text-align:center">
@@ -113,7 +113,7 @@ The time it takes to deliver a package over HTTP consists of
 The connection takes 20-50ms. The data transfer takes 10μs per transaction,
 if the speed of the network is 100Mb/s and an average size of a single transaction is 1Kb.
 The largest time consumer is the HTTP processing code inside each node, which
-doesn't change significantly, no matter how large is the package.
+doesn't change significantly, no matter how large the package is.
 
 Ergo, the value of _P_ for 50,000 wallet modifications with a single transaction
 in each one, would be equal to:
@@ -123,8 +123,8 @@ in each one, would be equal to:
   alt='equation' class='equation'/>
 </p>
 
-To summarize, even though the confirmation time depends on the amount of
-nodes in the network and the intensity of modificiations made by wallet
+To summarize, even though the confirmation time depends on the number of
+nodes in the network and the intensity of modifications made by wallet
 owners, the dependency is not linear. The confirmation time does grow, but
 even with a million nodes in the network and a thousand transactions per second
 its value jumps from 20 to 200 seconds. With a million transactions

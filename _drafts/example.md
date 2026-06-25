@@ -7,7 +7,7 @@ author:
   twitter: yegor256
 description: |
   Your online shop, a mobile app, or a crypto exchange
-  may accept and send ZLD as payment method, here is how
+  may accept and send ZLD as a payment method, here is how
   you integrate with our API.
 tags: architecture
 ---
@@ -58,7 +58,7 @@ GET /wait-for?prefix=P&regexp=R&uri=U&token=T
 {% endhighlight %}
 
 Here, `P` is the prefix from the invoice you just generated, and `U` is
-the URI where you are expecting a callback, when the payment arrives to
+the URI where you are expecting a callback, when the payment arrives in
 your wallet.
 
 When it arrives, you will get a GET HTTP request from the WTS
@@ -68,13 +68,13 @@ and it will look like this:
 GET /?amount=A&details=R&token=T
 {% endhighlight %}
 
-Here, `A` will be the amount of zents just arrived to your wallet, `R` and `T`
+Here, `A` will be the amount of zents just arrived in your wallet, `R` and `T`
 will be the numbers you generated before. Using them, you can find the customer
 in your database and apply the incoming payment to their balance.
 
 Your server has to respond with 200 status code and the body of the
-response must be `OK`. If this won't happen for any reason (for example,
-your server is temporary down), the WTS will make another attempt to send
+response must be `OK`. If this doesn't happen for any reason (for example,
+your server is temporarily down), the WTS will make another attempt to send
 you the GET request in a few minutes. It will keep making those attempts
 for 24 hours and then it will give up.
 
@@ -115,8 +115,8 @@ The JSON document you will receive will look like this:
 
 If the `status` element of the JSON is `OK`, the payment has been
 sent. If the `status` is `Running`, it's still in processing.
-In all other cases, the payment request was not successful. More details
-of the problem you can get at this URL:
+In all other cases, the payment request was not successful. You can get
+more details about the problem at this URL:
 
 {% highlight text %}
 GET /output?id=J
@@ -124,14 +124,14 @@ GET /output?id=J
 
 This request will show you the entire log of the payment request.
 
-BTW, every time if something goes wrong, you may see the error message
+BTW, every time something goes wrong, you may see the error message
 in the `X-Zold-Error` HTTP header of the response. Simply put, if this
 header is present, there was some error on the server.
 
 ## Using Your Wallet
 
-Aside from sending and receiving zolds you may be interested to
-check your wallet balance, see the list of transactions, download
+Aside from sending and receiving zolds you may be interested in
+checking your wallet balance, seeing the list of transactions, downloading
 your private RSA key and do some other things, which are provided
 by the WTS API. The API is fully documented [here](https://github.com/zold-io/wts.zold.io).
 If you have any questions or suggestions, don't hesitate to

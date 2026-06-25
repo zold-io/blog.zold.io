@@ -14,16 +14,16 @@ tags: architecture
 
 Even though we have [some documentation](https://github.com/zold-io/zold#how-to-start-a-node)
 in GitHub, there are many
-questions from newcomers who want to join Zold networks and become
+questions from newcomers who want to join the Zold network and become
 Hosters to earn [hosting bonuses]({% post_url 2018/08/2018-08-14-hosting-bonuses %})
-and taxes---how to run a node? Were
-is the video? Why it doesn't work for me? Who can help? Here is a short
+and taxes---how to run a node? Where
+is the video? Why doesn't it work for me? Who can help? Here is a short
 summary of how it is supposed to work. If it doesn't, please post your
 comments below, one of us will help you out.
 
 <!--more-->
 
-First of all, you will need a server. I'd recommend to use
+First of all, you will need a server. I'd recommend using
 a [VPS](https://en.wikipedia.org/wiki/Virtual_private_server),
 instead of a dedicated one. You can get it cheap, just browse
 [LowEndBox](https://lowendbox.com/), they have plenty of offers. Make sure
@@ -65,7 +65,7 @@ If it doesn't work, submit a ticket to our
 in the console and paste it to the ticket. It is very possible that our
 software has bugs, it's still in the very early experimental stage.
 
-Once Zold is installed, I would suggest you to to go [WTS](https://wts.zold.io)
+Once Zold is installed, I would suggest you go to [WTS](https://wts.zold.io)
 and create a wallet there. Then, go to the [Invoice](https://wts.zold.io/invoice) page there and get
 your [invoice]({% post_url 2018/08/2018-08-06-invoices %}).
 

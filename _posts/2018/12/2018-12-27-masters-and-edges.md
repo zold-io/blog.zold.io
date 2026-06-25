@@ -21,9 +21,9 @@ Bitcoin or Ethereum, or something else like
 [DNS](https://en.wikipedia.org/wiki/Domain_Name_System),
 or
 [Skype](https://en.wikipedia.org/wiki/Skype),
-need some amount of servers with a special level of trust. When new clients
+needs a number of servers with a special level of trust. When new clients
 connect to the network they have to interact with _some_ servers they
-can fully trust. Then, those "nodes" can redirect the clietn to other
+can fully trust. Then, those "nodes" can redirect the client to other
 places. Something similar existed in Zold from the first day, but got
 a special name just a week ago.
 
@@ -59,14 +59,14 @@ we create, without modifications.
 Just recently, a week ago, we [added](https://github.com/zold-io/zold/issues/633)
 a new feature to our command line client: intolerance for _no-masters_ FETCH
 and PUSH operations. Simply put, your attempt to fetch a wallet from the
-network will fail if no master nodes took participation in it. All other nodes,
+network will fail if no master nodes took part in it. All other nodes,
 which are not masters (and they are obviously in majority) we call "edges."
-Thus, if only edges are returning the wallet, it can not be trusted.
+Thus, if only edges are returning the wallet, it cannot be trusted.
 
 This feature seriously increases trust in the entire system.
 
-I believe, we will need more master nodes in the future, when the amount
-of wallets and transactions will grow.
+I believe, we will need more master nodes in the future, when the number
+of wallets and transactions grows.
 
 And, by the way, any client can disable this additional trust check, by using
-this newly introduced command like argument: `--tolerate-edges`.
+this newly introduced command-line argument: `--tolerate-edges`.

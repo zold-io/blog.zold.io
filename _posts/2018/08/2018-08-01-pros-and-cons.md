@@ -14,17 +14,17 @@ tags: features
 [Zold](https://www.zold.io) is an experimental digital currency, which
 has its own pros and cons. It was designed as an alternative to existing
 dominating cryptocurrencies, like [Bitcoin](https://bitcoin.org/en/),
-[Etherium](https://www.ethereum.org/), and others. As
+[Ethereum](https://www.ethereum.org/), and others. As
 [explained earlier]({% post_url 2018/07/2018-07-08-mission %}),
 its mission is to support the revolution of the software
-development industry, [Zerocracy](https://www.zerocracy.com) is leading.
+development industry that [Zerocracy](https://www.zerocracy.com) is leading.
 Explaining what Zold is, I often hear the question:
 "What's so unique about it?" Here is the answer.
 
 <!--more-->
 
 Zold is not attempting to be the _best_ cryptocurrency. It has its own
-features, which distinguishes it from other solutions. Bear in mind that
+features, which distinguish it from other solutions. Bear in mind that
 some of those solutions
 may be more applicable than Zold to some business cases.
 
@@ -38,7 +38,7 @@ Here is the list:
     integrity statically, like [nonces](https://en.bitcoin.it/wiki/Nonce) in Blockchain, but are taken into account
     by the consensus protocol in runtime;
     This makes it easier to corrupt
-    previous data, but helps maintain a larger amount of smaller servers.
+    previous data, but helps maintain a larger number of smaller servers.
 
   * The [double-spending problem](https://en.wikipedia.org/wiki/Double-spending)
     is resolved through a custom consensus protocol,

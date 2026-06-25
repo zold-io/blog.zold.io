@@ -11,9 +11,9 @@ description: |
 tags: algorithm
 ---
 
-[CoinMarketCap](https://www.CoinMarketCap.com) provides an interesting statistics:
+[CoinMarketCap](https://www.CoinMarketCap.com) provides an interesting statistic:
 there are only 25 mineable coins in the Top 100 coins based on
-the market capitalization. The rest 75 in Top 100 are
+the market capitalization. The remaining 75 in the Top 100 are
 pre-mined. Only 25% at the top of the list. Down the list the
 picture is even more dominated by the pre-mined coins.
 
@@ -28,7 +28,7 @@ of the redundant money supply.
 
 <!--more-->
 
-Needless to say the current fiat-based 100-percent-debt-dominated monetary
+Needless to say, the current fiat-based 100-percent-debt-dominated monetary
 system has all these stages synchronized in a state-of-art way. The US dollar
 mechanism is at the very top. The methodological and synchronized work performed
 by the respective teams in three key pillars of the US monetary system---Fed
@@ -39,16 +39,16 @@ system can replicate their achievements yet. “Yet” is the keyword.
 
 Satoshi Nakamoto in the now legendary [Bitcoin’s Whitepaper](https://bitcoin.org/bitcoin.pdf)
 from 2008 clearly and explicitly provided the goal of Bitcoin: to solve the double-spending without
-the need of a trusted intermediary. Past ten years demonstrated Bitcoin
+the need of a trusted intermediary. The past ten years demonstrated that Bitcoin
 [can handle](https://hackernoon.com/types-of-consensus-protocols-used-in-blockchains-6edd20951899)
 the task. In this it can effectively compete with the fiat model. It
 is revolutionary, but still not enough to replace the fiat system managed by the
 Fed-Treasury-SEC triumvirate. Over 1,600 new consensus cryptocurrencies appeared
 after Bitcoin---in hope that at least one will take from the point Bitcoin
-already proved. We still don’t know if Bitcoin can solve next tasks, or its role
+already proved. We still don’t know if Bitcoin can solve the next tasks, or its role
 is merely an intro into a new brave monetary world ahead.
 
-Evolving further, when a consensus money model is considered, in order it is
+Evolving further, when a consensus money model is considered, for it to be
 really based on the consensus of its participants, all its parts must meet the
 “consensus” criteria. Or pass the “consensus test” if you will. When the entire
 amount of money is pre-mined and is provided to participants as given, it
@@ -60,7 +60,7 @@ and resilient you don’t want this backdoor in any form.
 
 Notion of the consensus in everything is the key. Including mining. With
 pre-mined coins the system signals to its participants that it considers this amount
-of money is needed for the anticipated tasks and functioning of the model.
+of money needed for the anticipated tasks and functioning of the model.
 Participants either have to agree or leave. Since all pre-mined coins are not
 used at once, some central authority usually holds an escrow account for the
 unused coins. A logical question is: what for? There is no mechanism of
@@ -89,7 +89,7 @@ it is a mineable or a pre-mined model. Even with Bitcoin we are destined to
 reach the limit of Bitcoin supply in [approx 122 years](https://www.investopedia.com/news/only-20-percent-total-bitcoins-remain-be-mined/).
 What will happen when all pre-mined coins are finally distributed? So far we don’t know the clear
 answer. No coin has ever reached this threshold yet. But the theoretical answer
-is that such a coin will stop its functioning within short period of time after
+is that such a coin will stop its functioning within a short period of time after
 that event. Why? Due to the fees’ mechanism. Every transaction with the fee
 attached to it will take away a part of the money from the circulation.
 Typically, the nodes collecting the fees will spend the accumulated fees slower
@@ -98,8 +98,8 @@ contract and the contracted amounts will reside with the most active (read:
 biggest) nodes or pools of nodes. Contracting money supply is the worst-case
 scenario for any monetary system.
 
-Summarizing the aforementioned points, we can make a conclusion a true consensus
-monetary system must remove the number of the centralized elements within it.
+Summarizing the aforementioned points, we can conclude that a true consensus
+monetary system must reduce the number of centralized elements within it.
 Ideally to the level of zero. Any authority-based element only increases the
 vulnerability in the longer run. Pre-mining is such a vulnerability. On top of
 that consensus system should be a living organism evolving with its participants

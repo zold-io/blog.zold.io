@@ -20,13 +20,13 @@ It has a very ambitious technical roadmap.
 This is our current technical focus (most urgent and critical are at the top):
 
   * Zold-Stress doesn't demonstrate high-speed results; we have to investigate
-    what's going on and what need to be fixed.
+    what's going on and what needs to be fixed.
 
   * Large Traffic: we send wallet content too frequently between nodes, while
     it's possible to optimize that and return "Not-Modified" for all FETCH
     operations, if they request the content they already have. We may also
-    want to delivery multiple wallets in one HTTP request ("packaged delivery")
-    and delivery partial content.
+    want to deliver multiple wallets in one HTTP request ("packaged delivery")
+    and deliver partial content.
 
   * No SSL: nodes still communicate via an open and insecure HTTP
     protocol. This is a pretty serious threat, we have to start using HTTPS.
@@ -35,8 +35,8 @@ This is our current technical focus (most urgent and critical are at the top):
     makes it difficult to manage and slow. Would be great to introduce
     a database-backed persistence layer, with SQLite, for example.
 
-  * Windows: at the moment our software doesn't run on Windows platform,
-    and it's only sad. We have to make sure that our nodes run
+  * Windows: at the moment our software doesn't run on the Windows platform,
+    and it's just sad. We have to make sure that our nodes run
     on Windows.
 
 History:
@@ -75,7 +75,7 @@ Score strength [increased](https://github.com/zold-io/zold/issues/619) to 8.
 
 15-Nov-18:<br/>
 [Zold-stress](https://github.com/zold-io/zold-stress), a stress-test automated
-command like toolkit released.
+command-line toolkit released.
 Score calculating code moved to its own repository [zold-score](https://github.com/zold-io/zold-score),
 and C/C++ implementation introduced.
 Node aliases introduced in [#249](https://github.com/zold-io/zold/issues/249).

@@ -17,8 +17,8 @@ has to solve is known as [double-spending](https://en.wikipedia.org/wiki/Double-
 Just like Blockchain, Zold may also become a victim of such an attack
 or maybe even a technical mistake without evil intentions. What technically
 may happen is that two different nodes present two different versions
-of the same wallet, sending zolds in two different directions. How Zold
-deals with this?
+of the same wallet, sending zolds in two different directions. How does Zold
+deal with this?
 
 <!--more-->
 
@@ -69,7 +69,7 @@ If the amount of zolds you are expecting is large enough, make sure you
 wait for 24 hours before making a shipment.
 
 It's important to mention that this
-24-hours interval is only temporarily that large. Technically, we can lower it
+24-hour interval is only temporarily that large. Technically, we can lower it
 to just a few minutes, since an average confirmation time in Zold [network](http://www.zold.io/health.html)
 at the moment is less than 140 seconds. The interval is not configurable
 at the moment, but will be
