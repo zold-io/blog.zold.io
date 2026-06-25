@@ -79,7 +79,7 @@ Your node should be up and running. It will be visible in your IP address
 via the port 4096 (you will need to open that port for inbound connections,
 if you have a firewall). To check whether your node is alive,
 "open" it in a browser. It should look similar to this page:
-[b2.zold.io:4096](http://b2.zold.io:4096/])
+[b2.zold.io:4096](http://b2.zold.io:4096)
 
 Now, wait for a few hours and check the presence of your node in
 our network monitoring page: [/health](http://www.zold.io/health.html).
