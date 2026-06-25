@@ -13,7 +13,7 @@ tags: algorithm
 
 [Keygap]({% post_url 2018/07/2018-07-18-keygap %}),
 as you know, is a small piece of text extracted from your private
-RSA key in order to prevent your money loss in case of our database
+RSA key in order to prevent the loss of your money in case our database
 is stolen. You get the Keygap when you register your account
 with [WTS](https://wts.zold.io) or any other client of the WTS,
 like a mobile wallet. What if you lose it? Can you restore the access
@@ -24,12 +24,12 @@ to your wallet somehow? Not really.
 Once again, when you create an account in [WTS](https://wts.zold.io),
 our server creates a private RSA key for you and stores it in the
 database. Then, it extracts a small part of it, removes it from the
-RSA key text and _shows_ you. You should read it and save locally,
+RSA key text and _shows_ it to you. You should read it and save it locally,
 somewhere in your records. The screen should look like this:
 
 <img src="/images/2019/03/wts-confirm.png"/>
 
-This is your keygap. You have to save it and never share with anyone.
+This is your keygap. You have to save it and never share it with anyone.
 We don't keep it in our database. Nobody knows it, except you.
 
 What do you do if you lost it?

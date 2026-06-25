@@ -7,7 +7,7 @@ author:
   twitter: yegor256
 description: |
   Zold score is not a stable or predictable variable; however
-  parallel threads stabilize it to some extend; here is how.
+  parallel threads stabilize it to some extent; here is how.
 tags: algorithm
 ---
 
@@ -23,7 +23,7 @@ According to the [White Paper](https://papers.zold.io/wp.pdf), in order
 to _earn_ a score, a node has to create a _prefix_ and then find a number
 of text _suffixes_, which will satisfy a simple condition: a concatenation
 of them with the prefix has to produce a zero-ending text after
-being passed through SHA-256  hash-generating algorithm. The prefix,
+being passed through SHA-256 hash-generating algorithm. The prefix,
 according to our requirements, has to include the ISO-8601 time of the
 moment it was created, for example:
 
@@ -55,10 +55,10 @@ This is how the value of the score may look when growing in time:
 
 <img src="/images/2018/11/score-1.png"/>
 
-However, a node can not keep finding those suffixes, endlessly growing the
+However, a node cannot keep finding those suffixes, endlessly growing the
 value of the score. At some point it has to stop. This will happen exactly
 in 24 hours after the moment the prefix was created. The score you see
-above expired long time ago. If your node will show it to others, they will
+above expired a long time ago. If your node shows it to others, they will
 reject it and the voice of your node won't be taken into account. The score
 has to be _fresh_ enough in order to matter.
 
@@ -71,9 +71,9 @@ again. This is how the graph will look in reality:
 
 Thus, the node will lose its voting power every 24 hours. It will stop
 receiving taxes and [hosting bonuses]({% post_url 2018/08/2018-08-14-hosting-bonuses %}).
-This is not what node owners really want to. In order to solve this issue
+This is not what node owners really want. In order to solve this issue
 we calculate a number of scores at the same time, in parallel processes.
-But if we just calculate them parallel, the graph will look like this:
+But if we just calculate them in parallel, the graph will look like this:
 
 <img src="/images/2018/11/score-3.png"/>
 

@@ -29,13 +29,13 @@ almost 40 of them and half of them were an obvious scam. They were
 either asking us for some money upfront with no guarantee, or were not
 understanding what non-Blockchain meant at all. It seems that the crypto
 market is so young now that the majority of players are far from being
-serious. Hopefully, this situation will change in some time.
+serious. Hopefully, this situation will change in time.
 
 Second, our protocol of data management is very different from what
 Blockchain-based cryptocurrencies provide, like Bitcoin or Ethereum. We don't
 have a block explorer, we have no transaction hashes, payment
-addresses look different in Zold, and even transaction processing
-algorithm works differently, comparing to Bitcoin, for example.
+addresses look different in Zold, and even the transaction processing
+algorithm works differently, compared to Bitcoin, for example.
 All these technical differences scare the majority of traditional exchanges.
 
 Having this all in mind, it is easy to understand how much we appreciate

@@ -55,7 +55,7 @@ This is known as a [double-spending problem](https://en.wikipedia.org/wiki/Doubl
 
 The node will have to make a decision, which transaction is legal, and which
 one is fraudulent and has to be rolled back. A consensus protocol helps Zold nodes
-make that decision. The node in conflict simply compares the amount of nodes
+make that decision. The node in conflict simply compares the number of nodes
 both wallets came from and selects the version that came from a _larger_ part
 of the network.
 
