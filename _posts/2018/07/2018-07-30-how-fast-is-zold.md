@@ -39,7 +39,7 @@ It seems that _H_, the approximate number of hops,
 will be equal to the logarithm of _N_ to base _R_:
 
 <p style="text-align:center">
-<img src='http://latex.codecogs.com/svg.latex?H%3Dlog_RN'
+<img src='https://latex.codecogs.com/svg.latex?H%3Dlog_RN'
   alt='equation' class='equation'/>
 </p>
 
@@ -55,7 +55,7 @@ average _R_ of 40 nodes, the speed of update _S_ is 50 seconds.
 We can assume that the dependency is linear:
 
 <p style="text-align:center">
-<img src='http://latex.codecogs.com/svg.latex?S%3DP%5Ctimes%7B%7D%20R%20%5Ctimes%7B%7D3'
+<img src='https://latex.codecogs.com/svg.latex?S%3DP%5Ctimes%7B%7D%20R%20%5Ctimes%7B%7D3'
   alt='equation' class='equation'/>
 </p>
 
@@ -64,7 +64,7 @@ can accept a modification of a single wallet and spread it over all nodes
 in approximately 48 seconds (confirmation time):
 
 <p style="text-align:center">
-<img src='http://latex.codecogs.com/svg.latex?T%3DH%5Ctimes%7B%7D%20S%3Dlog_{16}{1000}%5Ctimes%7B%7D%20400ms%5Ctimes%7B%7D%2016%5Ctimes%7B%7D%203%3D48s'
+<img src='https://latex.codecogs.com/svg.latex?T%3DH%5Ctimes%7B%7D%20S%3Dlog_{16}{1000}%5Ctimes%7B%7D%20400ms%5Ctimes%7B%7D%2016%5Ctimes%7B%7D%203%3D48s'
   alt='equation' class='equation'/>
 </p>
 
@@ -88,7 +88,7 @@ from its neighbours. The length of the package _L_ depends on _F_, the intensity
 of the wallets flow:
 
 <p style="text-align:center">
-<img src='http://latex.codecogs.com/svg.latex?L%3DF%5Ctimes%20S'
+<img src='https://latex.codecogs.com/svg.latex?L%3DF%5Ctimes%20S'
   alt='equation' class='equation'/>
 </p>
 
@@ -96,7 +96,7 @@ With the current _S_ of 50 seconds and the intensity _F_ of a thousand wallets p
 the approximate length of the package will be 50,000 wallets:
 
 <p style="text-align:center">
-<img src='http://latex.codecogs.com/svg.latex?L%3D1000w%2Fs%20%5Ctimes%2050s%20%3D%2050000w'
+<img src='https://latex.codecogs.com/svg.latex?L%3D1000w%2Fs%20%5Ctimes%2050s%20%3D%2050000w'
   alt='equation' class='equation'/>
 </p>
 
@@ -119,7 +119,7 @@ Ergo, the value of _P_ for 50,000 wallet modifications with a single transaction
 in each one, would be equal to:
 
 <p style="text-align:center">
-<img src='http://latex.codecogs.com/svg.latex?P%3D50ms+50000%5Ctimes%200.01%5Cmu%20s+350ms=900ms'
+<img src='https://latex.codecogs.com/svg.latex?P%3D50ms+50000%5Ctimes%200.01%5Cmu%20s+350ms=900ms'
   alt='equation' class='equation'/>
 </p>
 
